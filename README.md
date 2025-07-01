@@ -26,19 +26,6 @@ Website ini bertujuan untuk membantu masyarakat menemukan dan mendukung pelaku U
 
 ---
 
-## 📦 Struktur Folder
-UMKM-Desa-Jeruk/
-├── asset/
-│ ├── css/
-│ │ └── style.css
-│ └── image/
-│ └── umkm.jpg
-├── data_umkm.json
-├── index.html
-└── README.md
-
----
-
 ## 🛠️ Cara Clone Project
 
 Buka terminal atau Git Bash dan jalankan perintah berikut:
