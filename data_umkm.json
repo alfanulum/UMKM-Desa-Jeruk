@@ -1,0 +1,38 @@
+[
+  {
+    "nama_umkm": "Warung Berkah Bu Siti",
+    "pemilik": "Bu Siti",
+    "lokasi": "RT 02 RW 01, Jeruk",
+    "kategori": "Kuliner",
+    "rating": 4.8,
+    "ulasan": 120,
+    "harga": "Rp 15.000+",
+    "produk": "Nasi Pecel",
+    "image": "https://via.placeholder.com/400x250.png?text=Warung+Berkah",
+    "avatar": "https://i.pravatar.cc/32?img=12"
+  },
+  {
+    "nama_umkm": "Kriya Bambu Pak Agus",
+    "pemilik": "Pak Agus",
+    "lokasi": "RT 05 RW 03, Jeruk",
+    "kategori": "Kerajinan",
+    "rating": 5.0,
+    "ulasan": 90,
+    "harga": "Rp 50.000+",
+    "produk": "Aneka Souvenir",
+    "image": "https://via.placeholder.com/400x250.png?text=Kerajinan+Bambu",
+    "avatar": "https://i.pravatar.cc/32?img=8"
+  },
+  {
+    "nama_umkm": "Servis AC Pak Budi",
+    "pemilik": "Pak Budi",
+    "lokasi": "RT 01 RW 02, Jeruk",
+    "kategori": "Jasa",
+    "rating": 4.5,
+    "ulasan": 75,
+    "harga": "Rp 100.000+",
+    "produk": "Servis AC Rumah",
+    "image": "https://via.placeholder.com/400x250.png?text=Jasa+Servis+AC",
+    "avatar": "https://i.pravatar.cc/32?img=20"
+  }
+]
