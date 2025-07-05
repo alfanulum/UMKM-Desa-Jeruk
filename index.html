@@ -2,12 +2,13 @@
 <html lang="id">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UMKM Kelurahan Jeruk</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="asset/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="asset/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&family=Raleway&family=Ubuntu&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -16,47 +17,29 @@
   <nav class="navbar navbar-expand-lg bg-white shadow-sm">
     <div class="container">
       <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
-        <img src="https://via.placeholder.com/40x40.png?text=J" alt="Logo" width="40" class="me-2">
-        UMKM Kelurahan Jeruk
+        <img src="asset/image/logo_jeruk.png" alt="Logo" width="60" class="me-2" />
+        <span class="display-4 fw-bold fs-5">UMKM <br />Kelurahan Jeruk</span>
       </a>
     </div>
   </nav>
 
   <!-- HERO SECTION -->
-  <section class="hero-section py-5">
-    <div class="container py-5 ">
+    <section class="hero-section py-5">
+    <br>
+    <div class="container py-5">
       <div class="row align-items-center">
-        <!-- Text Content -->
-        <div class="col-lg-6 mb-4 mb-lg-0">
-          <span class="badge bg-white border text-dark mb-3">Kelurahan Jeruk, Lakarsantri</span>
-          <h1 class="display-5 fw-bold">Eksplorasi <span class="highlight-orange">UMKM Lokal</span> yang Berkualitas
+        <div class="col-lg-6 mb-4 mb-lg-0 pe-lg-5">
+          <span class="display-5 fw-bold highlight-orange">Kelurahan Jeruk</span>
+          <h1 class="display-5 fw-bold">
+            Eksplorasi <span class="highlight-orange">UMKM Lokal</span> yang Berkualitas
           </h1>
-          <p class="lead text-muted">Temukan berbagai produk dan layanan UMKM dari Kelurahan Jeruk yang kreatif,
-            terjangkau, dan terpercaya. Dukung perekonomian lokal dan jadilah bagian dari pertumbuhannya.</p>
-          <a href="#" class="btn btn-orange fw-semibold px-4 py-2">Lihat UMKM</a>
-
-          <!-- Rating -->
-          <div class="d-flex align-items-center mt-4">
-            <div class="d-flex me-2">
-              <img src="https://i.pravatar.cc/30?img=1" class="rounded-circle me-1" alt="User 1">
-              <img src="https://i.pravatar.cc/30?img=2" class="rounded-circle me-1" alt="User 2">
-              <img src="https://i.pravatar.cc/30?img=3" class="rounded-circle me-1" alt="User 3">
-            </div>
-            <div>
-              <div class="d-flex align-items-center">
-                <span class="text-warning fs-5">&#9733;&#9733;&#9733;&#9733;&#189;</span>
-                <span class="ms-2 fw-semibold">4.8/5</span>
-              </div>
-              <small class="text-muted">Dipercaya oleh 5.300+ warga</small>
-            </div>
-          </div>
+          <p class="lead text-muted text-justify">
+            Kelurahan Jeruk merupakan salah satu kelurahan yang terletak di wilayah Surabaya Timur, dikenal sebagai kawasan yang terus berkembang dengan semangat kebersamaan warganya. Wilayah ini memiliki potensi besar di bidang usaha mikro, kecil, dan menengah (UMKM) yang terus didorong melalui kegiatan pemberdayaan ekonomi masyarakat. Dengan lingkungan yang tertata dan masyarakat yang aktif, Kelurahan Jeruk menjadi contoh kawasan yang mendukung pertumbuhan ekonomi lokal sekaligus menjaga nilai-nilai kebudayaan dan gotong royong.
+          </p>
         </div>
-
-        <!-- Image -->
-        <div class="col-lg-6 text-center position-relative">
+        <div class="col-lg-6 text-center position-relative ps-lg-5">
           <div class="hero-image-wrapper">
-            <div class="hero-image-overlay"></div>
-            <img src="asset/image/umkm.jpg" class="img-fluid" alt="UMKM Image">
+            <img src="asset/image/umkm.jpg" class="img-fluid" alt="UMKM Image" />
           </div>
         </div>
       </div>
@@ -70,20 +53,20 @@
         <div class="col-md-4">
           <label for="kategori" class="form-label">Kategori UMKM</label>
           <select class="form-select" id="kategori">
-            <option selected>Pilih Kategori</option>
-            <option value="makanan">Makanan & Minuman</option>
-            <option value="kerajinan">Kerajinan Tangan</option>
-            <option value="jasa">Jasa</option>
+            <option value="">Pilih Kategori</option>
+            <option value="Kuliner">Kuliner</option>
+            <option value="Kerajinan">Kerajinan</option>
+            <option value="Jasa">Jasa</option>
           </select>
         </div>
         <div class="col-md-4">
           <label for="lokasi" class="form-label">Lokasi</label>
-          <input type="text" class="form-control" id="lokasi" placeholder="Contoh: RT 03 RW 02">
+          <input type="text" class="form-control" id="lokasi" placeholder="Contoh: RT 03 RW 02" />
         </div>
         <div class="col-md-4">
           <label for="keyword" class="form-label">Pencarian</label>
           <div class="input-group">
-            <input type="text" class="form-control" id="keyword" placeholder="Cari produk atau layanan...">
+            <input type="text" class="form-control" id="keyword" placeholder="Cari produk atau layanan..." />
             <button class="btn btn-orange" type="submit">Cari</button>
           </div>
         </div>
@@ -103,13 +86,12 @@
         <!-- Kartu UMKM akan dimasukkan di sini oleh JavaScript -->
       </div>
 
-      <div class="text-center mt-5">
-        <a href="#" class="btn btn-dark rounded-pill px-4 py-2 fw-semibold">Lihat Semua UMKM</a>
+      <div class="text-end mt-5">
+        <a href="#" class="btn btn-dark rounded-pill px-4 py-2 fw-semibold">^</a>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <!-- FOOTER -->
   <footer class="bg-orange text-white pt-5">
     <div class="container">
@@ -117,9 +99,7 @@
         <div class="col-md-6">
           <h5 class="fw-bold">UMKM Kelurahan Jeruk</h5>
           <p class="text-white-50">
-            Website ini bertujuan untuk mempromosikan UMKM lokal di Kelurahan Jeruk, Lakarsantri, Surabaya. Temukan
-            produk
-            unggulan warga secara online.
+            Website ini bertujuan untuk mempromosikan UMKM lokal di Kelurahan Jeruk, Lakarsantri, Surabaya.
           </p>
           <div class="d-flex gap-3 mt-3">
             <a href="#" class="text-white fs-5"><i class="fab fa-facebook-f"></i></a>
@@ -145,67 +125,88 @@
         </div>
       </div>
 
-      <hr class="border-light mt-4">
+      <hr class="border-light mt-4" />
       <p class="text-center text-white-50 small mb-0">
         &copy; 2025 UMKM Jeruk — Dibuat untuk KKN UPN Veteran Jawa Timur
       </p>
     </div>
   </footer>
 
+  <!-- SCRIPT -->
   <script>
-    // Use a relative path from the HTML file
+    let umkmData = [];
+
     fetch('./data_umkm.json')
       .then(res => {
-        if (!res.ok) {
-          throw new Error('Network response was not ok');
-        }
+        if (!res.ok) throw new Error('Gagal mengambil data');
         return res.json();
       })
       .then(data => {
-        const container = document.getElementById('umkm-container');
-        data.forEach(umkm => {
-          container.innerHTML += `
-              <div class="col-md-4">
-                <div class="card shadow-sm border-0 h-100">
-                  <div class="position-relative">
-                    <img src="${umkm.image}" class="card-img-top" alt="${umkm.nama_umkm}">
-                    <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">Featured</span>
-                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">Hot</span>
+        umkmData = data;
+        renderUMKM(data);
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById('umkm-container').innerHTML = `<div class="col-12 text-center py-5"><h5 class="text-muted">Gagal memuat data UMKM. Silakan refresh halaman.</h5></div>`;
+      });
+
+    function renderUMKM(data) {
+      const container = document.getElementById('umkm-container');
+      container.innerHTML = '';
+
+      if (data.length === 0) {
+        container.innerHTML = `<div class="col-12 text-center py-5"><h5 class="text-muted">Tidak ada data yang cocok.</h5></div>`;
+        return;
+      }
+
+      data.forEach(umkm => {
+        container.innerHTML += `
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0 h-100">
+              <div class="position-relative">
+                <img src="${umkm.image}" class="card-img-top" alt="${umkm.nama_umkm}">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">${umkm.nama_umkm}</h5>
+                <div class="d-flex align-items-center mt-3">
+                  <div>
+                    <div class="fw-semibold">${umkm.pemilik}</div>
+                    <small class="text-muted">${umkm.lokasi}</small>
                   </div>
-                  <div class="card-body">
-                    <span class="badge bg-light text-dark mb-2">${umkm.kategori}</span>
-                    <div class="d-flex align-items-center mb-2">
-                      <span class="text-warning">
-                        ${'★'.repeat(Math.floor(umkm.rating))}${umkm.rating % 1 >= 0.5 ? '½' : ''}
-                      </span>
-                      <small class="ms-2 text-muted">${umkm.rating} (${umkm.ulasan} ulasan)</small>
-                    </div>
-                    <h5 class="card-title fw-bold">${umkm.nama_umkm}</h5>
-                    <div class="d-flex align-items-center mt-3">
-                      <img src="${umkm.avatar}" class="rounded-circle me-2" alt="${umkm.pemilik}">
-                      <div>
-                        <div class="fw-semibold">${umkm.pemilik}</div>
-                        <small class="text-muted">${umkm.lokasi}</small>
-                      </div>
-                      <div class="ms-auto text-end">
-                        <div class="fw-bold text-primary">${umkm.harga}</div>
-                        <small class="text-muted">${umkm.produk}</small>
-                      </div>
-                    </div>
+                  <div class="ms-auto text-end">
+                    <span class="badge rounded-pill bg-orange text-white mb-1 fs-6">${umkm.kategori}</span>
                   </div>
                 </div>
-              </div>`;
-        });
-      })
-      .catch(error => {
-        console.error('Error loading UMKM data:', error);
-        document.getElementById('umkm-container').innerHTML = `
-            <div class="col-12 text-center py-5">
-              <h5 class="text-muted">Gagal memuat data UMKM. Silakan refresh halaman.</h5>
-            </div>`;
+              </div>
+            </div>
+          </div>`;
       });
-  </script>
+    }
 
+    document.querySelector('form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const kategori = document.getElementById('kategori').value.trim().toLowerCase();
+      const lokasi = document.getElementById('lokasi').value.trim().toLowerCase();
+      const keyword = document.getElementById('keyword').value.trim().toLowerCase();
+
+      const filtered = umkmData.filter(umkm => {
+        const umkmKategori = umkm.kategori.toLowerCase();
+        const umkmLokasi = umkm.lokasi.toLowerCase();
+        const umkmNama = umkm.nama_umkm.toLowerCase();
+        const umkmPemilik = umkm.pemilik.toLowerCase();
+
+        const matchKategori = kategori === '' || umkmKategori === kategori;
+        const matchLokasi = lokasi === '' || umkmLokasi.includes(lokasi);
+        const matchKeyword = keyword === '' || umkmNama.includes(keyword) || umkmPemilik.includes(keyword);
+
+        return matchKategori && matchLokasi && matchKeyword;
+      });
+
+      renderUMKM(filtered);
+    });
+
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

@@ -34,5 +34,126 @@
     "produk": "Servis AC Rumah",
     "image": "https://via.placeholder.com/400x250.png?text=Jasa+Servis+AC",
     "avatar": "https://i.pravatar.cc/32?img=20"
+  },
+  {
+    "nama_umkm": "Kedai Mama Mintul",
+    "pemilik": "Bu Khusnul Khatimah",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.7,
+    "ulasan": 25,
+    "harga": "Rp 10.000+",
+    "produk": "Makanan & Minuman Rumahan",
+    "image": "https://via.placeholder.com/400x250.png?text=Kedai+Mama+Mintul",
+    "avatar": "https://i.pravatar.cc/32?img=1"
+  },
+  {
+    "nama_umkm": "Kedai Bu Endang",
+    "pemilik": "Bu Endang",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.6,
+    "ulasan": 20,
+    "harga": "Rp 12.000+",
+    "produk": "Makanan Rumahan",
+    "image": "https://via.placeholder.com/400x250.png?text=Kedai+Bu+Endang",
+    "avatar": "https://i.pravatar.cc/32?img=2"
+  },
+  {
+    "nama_umkm": "Pawon Mak Ndut",
+    "pemilik": "Bu Erin Solvi",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.8,
+    "ulasan": 30,
+    "harga": "Rp 15.000+",
+    "produk": "Masakan Jawa",
+    "image": "https://via.placeholder.com/400x250.png?text=Pawon+Mak+Ndut",
+    "avatar": "https://i.pravatar.cc/32?img=3"
+  },
+  {
+    "nama_umkm": "Kedai Grandmy",
+    "pemilik": "Bu Rita",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.5,
+    "ulasan": 18,
+    "harga": "Rp 10.000+",
+    "produk": "Snack & Makanan Ringan",
+    "image": "https://via.placeholder.com/400x250.png?text=Kedai+Grandmy",
+    "avatar": "https://i.pravatar.cc/32?img=4"
+  },
+  {
+    "nama_umkm": "Dapur Pelangi",
+    "pemilik": "Bu Sulis",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.7,
+    "ulasan": 22,
+    "harga": "Rp 13.000+",
+    "produk": "Aneka Masakan",
+    "image": "https://via.placeholder.com/400x250.png?text=Dapur+Pelangi",
+    "avatar": "https://i.pravatar.cc/32?img=5"
+  },
+  {
+    "nama_umkm": "Kedai Cahaya",
+    "pemilik": "Bu Nurhayati",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.6,
+    "ulasan": 19,
+    "harga": "Rp 10.000+",
+    "produk": "Makanan Harian",
+    "image": "https://via.placeholder.com/400x250.png?text=Kedai+Cahaya",
+    "avatar": "https://i.pravatar.cc/32?img=6"
+  },
+  {
+    "nama_umkm": "Kedai Bu Isti",
+    "pemilik": "Bu Isti",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.4,
+    "ulasan": 15,
+    "harga": "Rp 9.000+",
+    "produk": "Jajanan Pasar",
+    "image": "https://via.placeholder.com/400x250.png?text=Kedai+Bu+Isti",
+    "avatar": "https://i.pravatar.cc/32?img=7"
+  },
+  {
+    "nama_umkm": "Gia",
+    "pemilik": "Bu Isrotin",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.5,
+    "ulasan": 17,
+    "harga": "Rp 10.000+",
+    "produk": "Makanan Ringan",
+    "image": "https://via.placeholder.com/400x250.png?text=Gia",
+    "avatar": "https://i.pravatar.cc/32?img=8"
+  },
+  {
+    "nama_umkm": "Kedai Imas",
+    "pemilik": "Bu Muji Astuti",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.6,
+    "ulasan": 21,
+    "harga": "Rp 11.000+",
+    "produk": "Masakan Rumahan",
+    "image": "https://via.placeholder.com/400x250.png?text=Kedai+Imas",
+    "avatar": "https://i.pravatar.cc/32?img=9"
+  },
+  {
+    "nama_umkm": "Kedai Jeruk Ceria",
+    "pemilik": "Bunda Kartiasih",
+    "lokasi": "Pasar Ndeso Pandan Sari, Surabaya Timur",
+    "kategori": "Kuliner",
+    "rating": 4.9,
+    "ulasan": 28,
+    "harga": "Rp 12.000+",
+    "produk": "Aneka Minuman dan Snack",
+    "image": "asset/image/bunda kartiasih.JPG",
+    "avatar": "https://i.pravatar.cc/32?img=10"
   }
+
 ]
