@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap");
 
 .hero-image-container {
   position: relative;
@@ -62,11 +62,23 @@
   background-color: white;
 }
 
+.logo-navbar {
+  height: 60px; /* Disesuaikan agar tidak terlalu tinggi */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
 
-/* Konten tidak tertutup navbar */
+/* Supaya konten tidak tertutup navbar */
 body {
-  background-color: #fffefc;
+  background-color: #fffefc; /* Sesuaikan tinggi logo */
 }
 
 /* Tombol Oranye */
@@ -91,9 +103,47 @@ body {
 }
 
 /* Kartu UMKM */
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
 .card:hover {
-  transform: scale(1.02);
-  transition: all 0.3s ease;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 102, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ff6600;
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card .badge {
+  font-size: 0.8rem;
+  padding: 0.4em 0.8em;
+  background-color: #ff6600;
+}
+
+.card .fw-semibold {
+  font-weight: 600;
+}
+
+.card small.text-muted {
+  font-size: 0.85rem;
 }
 
 /* Footer */
@@ -121,4 +171,3 @@ footer a:hover {
 .text-justify {
   text-align: justify;
 }
-
