@@ -155,10 +155,7 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #2c2c2c 0%, #ff6600 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000000; /* Warna hitam solid */
   margin-bottom: 1rem;
   line-height: 1.2;
   transition: all 0.3s ease;
