@@ -35,11 +35,13 @@
             Eksplorasi <span class="highlight-orange">UMKM Lokal</span> yang Berkualitas
           </h1>
           <p class="lead text-muted text-justify">
-            Kelurahan Jeruk merupakan salah satu kelurahan yang terletak di wilayah Surabaya Timur, dikenal sebagai
-            kawasan yang terus berkembang dengan semangat kebersamaan warganya. Wilayah ini memiliki potensi besar di
-            bidang usaha mikro, kecil, dan menengah (UMKM) yang terus didorong melalui kegiatan pemberdayaan ekonomi
-            masyarakat. Dengan lingkungan yang tertata dan masyarakat yang aktif, Kelurahan Jeruk menjadi contoh kawasan
-            yang mendukung pertumbuhan ekonomi lokal sekaligus menjaga nilai-nilai kebudayaan dan gotong royong.
+            Kelurahan Jeruk terletak di Surabaya Timur dan dikenal sebagai kawasan yang terus berkembang. Wilayah ini
+            memiliki
+            potensi besar di bidang UMKM yang didukung melalui berbagai kegiatan pemberdayaan masyarakat. Dengan
+            lingkungan yang
+            tertata dan warga yang aktif, Kelurahan Jeruk menjadi contoh daerah yang mendorong pertumbuhan ekonomi lokal
+            sambil
+            menjaga budaya dan semangat gotong royong.
           </p>
         </div>
         <div class="col-lg-6 text-center position-relative ps-lg-5">
@@ -60,7 +62,7 @@
           <select class="form-select" id="kategori">
             <option value="">Pilih Kategori</option>
             <option value="Kuliner">Kuliner</option>
-            <option value="Kerajinan">Kerajinan</option>
+            <option value="Toko Sembako">Toko Sembako</option>
             <option value="Jasa">Jasa</option>
           </select>
         </div>
@@ -107,9 +109,17 @@
             Website ini bertujuan untuk mempromosikan UMKM lokal di Kelurahan Jeruk, Lakarsantri, Surabaya.
           </p>
           <div class="d-flex gap-3 mt-3">
-            <a href="#" class="text-white fs-5"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-white fs-5"><i class="fab fa-whatsapp"></i></a>
+            <div class="d-flex gap-3 mt-3">
+              <a href="#" class="text-white fs-5" aria-label="Facebook" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="text-white fs-5" aria-label="Instagram" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="text-white fs-5" aria-label="WhatsApp" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div class="col-md-3">
@@ -137,24 +147,10 @@
     </div>
   </footer>
 
-  <!-- SCRIPT -->
   <script>
-    let umkmData = [];
+    let dataUMKM = [];
 
-    fetch('./data_umkm.json')
-      .then(res => {
-        if (!res.ok) throw new Error('Gagal mengambil data');
-        return res.json();
-      })
-      .then(data => {
-        umkmData = data;
-        renderUMKM(data);
-      })
-      .catch(err => {
-        console.error(err);
-        document.getElementById('umkm-container').innerHTML = `<div class="col-12 text-center py-5"><h5 class="text-muted">Gagal memuat data UMKM. Silakan refresh halaman.</h5></div>`;
-      });
-
+    // Fungsi render kartu UMKM
     function renderUMKM(data) {
       const container = document.getElementById('umkm-container');
       container.innerHTML = '';
@@ -164,55 +160,97 @@
         return;
       }
 
-      data.forEach(umkm => {
+      data.forEach((umkm, index) => {
+        const delay = index * 0.1;
         container.innerHTML += `
-          <div class="col-md-4">
-            <div class="card shadow-sm border-0 h-100">
-              <div class="position-relative">
-                <img src="${umkm.image}" class="card-img-top" alt="${umkm.nama_umkm}">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title fw-bold">${umkm.nama_umkm}</h5>
-                <div class="d-flex align-items-center mt-3">
-                  <div>
-                    <div class="fw-semibold">${umkm.pemilik}</div>
-                    <small class="text-muted">${umkm.lokasi}</small>
-                  </div>
-                  <div class="ms-auto text-end">
-                    <span class="badge rounded-pill bg-orange text-white mb-1 fs-6">${umkm.kategori}</span>
+            <div class="col-md-4 col-lg-3 fade-in" style="animation-delay: ${delay}s">
+              <div class="card shadow-sm border-0 h-100">
+                <div class="position-relative">
+                  <img src="${umkm.image}" class="card-img-top" alt="${umkm.nama_umkm}">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">${umkm.nama_umkm}</h5>
+                  <div class="d-flex align-items-center mt-3">
+                    <div>
+                      <div class="fw-semibold">${umkm.pemilik}</div>
+                      <small class="text-muted">${umkm.lokasi}</small>
+                    </div>
+                    <div class="ms-auto text-end">
+                      <span class="badge rounded-pill bg-orange text-white mb-1">${umkm.kategori}</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>`;
+            </div>`;
       });
     }
 
-    document.querySelector('form').addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      const kategori = document.getElementById('kategori').value.trim().toLowerCase();
+    // Fungsi untuk filter data
+    function filterUMKM() {
+      const kategori = document.getElementById('kategori').value.trim();
       const lokasi = document.getElementById('lokasi').value.trim().toLowerCase();
       const keyword = document.getElementById('keyword').value.trim().toLowerCase();
 
-      const filtered = umkmData.filter(umkm => {
+      const filtered = dataUMKM.filter(umkm => {
         const umkmKategori = umkm.kategori.toLowerCase();
         const umkmLokasi = umkm.lokasi.toLowerCase();
         const umkmNama = umkm.nama_umkm.toLowerCase();
         const umkmPemilik = umkm.pemilik.toLowerCase();
+        const umkmProduk = umkm.produk.toLowerCase();
 
-        const matchKategori = kategori === '' || umkmKategori === kategori;
+        const matchKategori = kategori === '' || umkmKategori === kategori.toLowerCase();
         const matchLokasi = lokasi === '' || umkmLokasi.includes(lokasi);
-        const matchKeyword = keyword === '' || umkmNama.includes(keyword) || umkmPemilik.includes(keyword);
+        const matchKeyword = keyword === '' ||
+          umkmNama.includes(keyword) ||
+          umkmPemilik.includes(keyword) ||
+          umkmProduk.includes(keyword);
 
         return matchKategori && matchLokasi && matchKeyword;
       });
 
       renderUMKM(filtered);
-    });
+    }
 
+    // Inisialisasi
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('data_umkm.json')
+        .then(response => response.json())
+        .then(data => {
+          dataUMKM = data;
+          renderUMKM(dataUMKM);
+        })
+        .catch(error => {
+          console.error('Gagal memuat data UMKM:', error);
+          document.getElementById('umkm-container').innerHTML = `
+              <div class="col-12 text-center py-5 text-danger">
+                <h5>Gagal memuat data UMKM.</h5>
+                <p>${error.message}</p>
+              </div>`;
+        });
+
+      // Event listener
+      document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        filterUMKM();
+      });
+
+      document.getElementById('kategori').addEventListener('change', filterUMKM);
+      document.getElementById('lokasi').addEventListener('input', filterUMKM);
+      document.getElementById('keyword').addEventListener('input', filterUMKM);
+
+      // Back to top opsional
+      const backToTop = document.querySelector('.back-to-top');
+      if (backToTop) {
+        backToTop.addEventListener('click', function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+    });
   </script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 
 </html>
