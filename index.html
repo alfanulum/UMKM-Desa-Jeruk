@@ -151,6 +151,7 @@
     let dataUMKM = [];
 
     // Fungsi render kartu UMKM
+    // Enhanced render function with mobile-specific sequential reveal
     function renderUMKM(data) {
       const container = document.getElementById('umkm-container');
       container.innerHTML = '';
@@ -160,32 +161,120 @@
         return;
       }
 
+      // Check if mobile device
+      const isMobile = window.innerWidth <= 768;
+
       data.forEach((umkm, index) => {
-        const delay = index * 0.1;
-        container.innerHTML += `
-            <div class="col-md-4 col-lg-3 fade-in" style="animation-delay: ${delay}s">
-              <div class="card shadow-sm border-0 h-100">
-                <div class="position-relative">
-                  <img src="${umkm.image}" class="card-img-top" alt="${umkm.nama_umkm}">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title fw-bold">${umkm.nama_umkm}</h5>
-                  <div class="d-flex align-items-center mt-3">
-                    <div>
-                      <div class="fw-semibold">${umkm.pemilik}</div>
-                      <small class="text-muted">${umkm.lokasi}</small>
-                    </div>
-                    <div class="ms-auto text-end">
-                      <span class="badge rounded-pill bg-orange text-white mb-1">${umkm.kategori}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>`;
+        // Create card element
+        const cardElement = document.createElement('div');
+
+        // Mobile: Single column with staggered timing
+        if (isMobile) {
+          cardElement.className = 'col-12 card-loading';
+          // Increased delay for mobile to create nice sequential effect
+          const delay = index * 0.2; // 200ms between each card
+          cardElement.style.animationDelay = `${delay}s`;
+        } else {
+          // Desktop: 3 columns with shorter delays
+          cardElement.className = 'col-md-6 col-lg-4 card-loading';
+          const delay = index * 0.1;
+          cardElement.style.animationDelay = `${delay}s`;
+        }
+
+        cardElement.innerHTML = `
+      <div class="card shadow-sm border-0 h-100">
+        <div class="position-relative">
+          <img src="${umkm.image}" class="card-img-top" alt="${umkm.nama_umkm}">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold">${umkm.nama_umkm}</h5>
+          <div class="d-flex align-items-center mt-3">
+            <div>
+              <div class="fw-semibold">${umkm.pemilik}</div>
+              <small class="text-muted">${umkm.lokasi}</small>
+            </div>
+            <div class="ms-auto text-end">
+              <span class="badge rounded-pill bg-orange text-white mb-1">${umkm.kategori}</span>
+            </div>
+          </div>
+        </div>
+      </div>`;
+
+        container.appendChild(cardElement);
+      });
+
+      // Trigger sequential reveal animation
+      setTimeout(() => {
+        const cards = container.querySelectorAll('.card-loading');
+        cards.forEach((card, index) => {
+          setTimeout(() => {
+            card.classList.remove('card-loading');
+            card.classList.add('fade-in');
+          }, index * (isMobile ? 200 : 100)); // Staggered timing
+        });
+      }, 100);
+    }
+
+    // Enhanced intersection observer for scroll-triggered animations
+    function setupScrollAnimations() {
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px 0px -100px 0px',
+        threshold: 0.1
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const card = entry.target;
+            if (card.classList.contains('card-loading')) {
+              card.classList.remove('card-loading');
+              card.classList.add('fade-in');
+            }
+          }
+        });
+      }, observerOptions);
+
+      // Observe all cards
+      document.querySelectorAll('.card-loading').forEach(card => {
+        observer.observe(card);
       });
     }
 
-    // Fungsi untuk filter data
+    // Update the main initialization
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('data_umkm.json')
+        .then(response => response.json())
+        .then(data => {
+          dataUMKM = data;
+          renderUMKM(dataUMKM);
+
+          // Setup scroll animations after cards are rendered
+          setTimeout(() => {
+            setupScrollAnimations();
+          }, 500);
+        })
+        .catch(error => {
+          console.error('Gagal memuat data UMKM:', error);
+          document.getElementById('umkm-container').innerHTML = `
+        <div class="col-12 text-center py-5 text-danger">
+          <h5>Gagal memuat data UMKM.</h5>
+          <p>${error.message}</p>
+        </div>`;
+        });
+
+      // Rest of your existing event listeners...
+      document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        filterUMKM();
+      });
+
+      document.getElementById('kategori').addEventListener('change', filterUMKM);
+      document.getElementById('lokasi').addEventListener('input', filterUMKM);
+      document.getElementById('keyword').addEventListener('input', filterUMKM);
+    });
+
+    // Enhanced filter function with re-animation
     function filterUMKM() {
       const kategori = document.getElementById('kategori').value.trim();
       const lokasi = document.getElementById('lokasi').value.trim().toLowerCase();

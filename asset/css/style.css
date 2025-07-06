@@ -156,7 +156,7 @@ body {
   font-size: 1.4rem;
   font-weight: 800;
   background: linear-gradient(135deg, #2c2c2c 0%, #ff6600 100%);
-  -webkit-background-clip: text; /* Pindahkan ke atas */
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
@@ -168,7 +168,7 @@ body {
 
 .card:hover .card-title {
   background: var(--orange-gradient);
-  -webkit-background-clip: text; /* tulis lebih dulu */
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: translateY(-2px);
@@ -345,8 +345,102 @@ body {
   }
 }
 
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Default fade-in animation */
 .fade-in {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Mobile-specific animations */
+@media (max-width: 768px) {
+  .fade-in {
+    animation: slideInLeft 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  /* Alternate slide directions for visual interest */
+  .fade-in:nth-child(even) {
+    animation: slideInRight 0.6s ease-out forwards;
+  }
+
+  .fade-in:nth-child(3n) {
+    animation: scaleIn 0.6s ease-out forwards;
+  }
+}
+
+/* Extra small devices - single column with staggered timing */
+@media (max-width: 576px) {
+  .fade-in {
+    animation: slideInLeft 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    opacity: 0;
+  }
+
+  .fade-in:nth-child(even) {
+    animation: slideInRight 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  .fade-in:nth-child(3n) {
+    animation: fadeInUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  .fade-in:nth-child(4n) {
+    animation: scaleIn 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+}
+
+/* Loading state animation */
+.card-loading {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: none;
+}
+
+/* Reveal animation trigger */
+.card-reveal {
   animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .card-reveal {
+    animation: slideInLeft 0.6s ease-out forwards;
+  }
+
+  .card-reveal:nth-child(even) {
+    animation: slideInRight 0.6s ease-out forwards;
+  }
 }
 
 /* Enhanced container spacing - 3 cards per row */
@@ -419,17 +513,171 @@ footer a:hover {
 @media (max-width: 768px) {
   .card {
     border-radius: 16px;
+    margin-bottom: 1.5rem;
   }
 
   .card-body {
     padding: 1.25rem;
   }
 
+  /* Mobile stall name */
+  .card-title {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  /* Mobile owner name */
+  .card .fw-semibold {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  /* Mobile location */
+  .card small.text-muted {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.4rem;
+  }
+
+  /* Mobile badge */
+  .card .badge {
+    font-size: 0.7rem;
+    padding: 0.4em 0.8em;
+  }
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+  .card {
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  /* Mobile stall name - smaller but still prominent */
   .card-title {
     font-size: 1.1rem;
+    line-height: 1.2;
+    margin-bottom: 0.7rem;
+    letter-spacing: -0.3px;
   }
 
   .card-img-top {
     height: 180px;
+  }
+
+  /* Mobile owner name - more compact */
+  .card .fw-semibold {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+  }
+
+  .card .fw-semibold::before {
+    font-size: 0.9rem;
+  }
+
+  /* Mobile location - compact design */
+  .card small.text-muted {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.7rem;
+    margin-top: 0.3rem;
+    border-radius: 15px;
+  }
+
+  .card small.text-muted::before {
+    font-size: 0.9rem;
+  }
+
+  /* Mobile badge - smaller */
+  .card .badge {
+    font-size: 0.65rem;
+    padding: 0.3em 0.7em;
+  }
+
+  /* Reduce hover effects on mobile for better performance */
+  .card:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 10px 20px rgba(255, 102, 0, 0.15);
+  }
+
+  .card:hover .card-img-top {
+    transform: scale(1.02);
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .card:hover {
+    transform: none;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .card:hover .card-img-top {
+    transform: none;
+  }
+
+  .card:hover .card-title {
+    background: linear-gradient(135deg, #2c2c2c 0%, #ff6600 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: none;
+  }
+
+  .card:hover .fw-semibold {
+    transform: none;
+  }
+
+  .card:hover small.text-muted {
+    transform: none;
+  }
+
+  .card:hover .badge {
+    transform: none;
+  }
+
+  /* Add tap highlight for better touch feedback */
+  .card {
+    -webkit-tap-highlight-color: rgba(255, 102, 0, 0.1);
+  }
+}
+
+/* Container adjustments for mobile */
+@media (max-width: 576px) {
+  #umkm-container {
+    padding: 0 0.5rem;
+  }
+
+  #umkm-container .col-md-4,
+  #umkm-container .col-md-6 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Ensure proper spacing on all screen sizes */
+@media (min-width: 577px) and (max-width: 768px) {
+  #umkm-container .col-md-4,
+  #umkm-container .col-md-6 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  #umkm-container .col-md-4,
+  #umkm-container .col-md-6 {
+    margin-bottom: 2rem;
   }
 }
