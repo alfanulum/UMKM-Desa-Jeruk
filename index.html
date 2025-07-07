@@ -31,7 +31,8 @@
     <div class="container py-5">
       <div class="row align-items-center">
         <div class="col-lg-6 mb-4 mb-lg-0 pe-lg-5">
-          <span class="display-5 fw-bold highlight-orange">Kelurahan Jeruk</span>
+          <span class="display-5 fw-bold highlight-orange">Kelurahan</span>
+          <span class="display-5 fw-bold">Jeruk</span>
           <h1 class="display-5 fw-bold">
             Eksplorasi <span class="highlight-orange">UMKM Lokal</span> yang Berkualitas
           </h1>
@@ -55,27 +56,31 @@
   </section>
 
   <!-- SEARCH SECTION -->
-  <section class="bg-white py-4">
+  <section class="bg-white search-section">
     <div class="container">
-      <form class="row g-2 align-items-end">
-        <div class="col-md-4">
-          <label for="kategori" class="form-label">Kategori UMKM</label>
-          <select class="form-select" id="kategori">
-            <option value="">Pilih Kategori</option>
-            <option value="Kuliner">Kuliner</option>
-            <option value="Toko Sembako">Toko Sembako</option>
-            <option value="Jasa">Jasa</option>
-          </select>
-        </div>
-        <div class="col-md-4">
-          <label for="lokasi" class="form-label">Lokasi</label>
-          <input type="text" class="form-control" id="lokasi" placeholder="Contoh: RT 03 RW 02" />
-        </div>
-        <div class="col-md-4">
+      <form class="search-form mx-auto">
+        <div class="mb-4 text-center">
           <label for="keyword" class="form-label">Pencarian</label>
           <div class="input-group">
-            <input type="text" class="form-control" id="keyword" placeholder="Cari produk atau layanan..." />
+            <input type="text" class="form-control main-search" id="keyword"
+              placeholder="Cari produk atau layanan UMKM...">
             <button class="btn btn-orange" type="submit">Cari</button>
+          </div>
+        </div>
+
+        <div class="row g-3 justify-content-center">
+          <div class="col-md-5 col-sm-6">
+            <label for="kategori" class="form-label text-center w-100">Kategori UMKM</label>
+            <select class="form-select custom-select-arrow" id="kategori">
+              <option value="">Pilih Kategori</option>
+              <option value="Kuliner">Kuliner</option>
+              <option value="Toko Sembako">Toko Sembako</option>
+              <option value="Jasa">Jasa</option>
+            </select>
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <label for="lokasi" class="form-label text-center w-100">Lokasi</label>
+            <input type="text" class="form-control" id="lokasi" placeholder="Contoh: RT 03 RW 02">
           </div>
         </div>
       </form>
@@ -149,6 +154,43 @@
   </footer>
 
   <script>
+    // Smooth animations on scroll
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.1)';
+      } else {
+        navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+      }
+    });
+
+    // Form enhancements
+    document.querySelectorAll('.form-control, .form-select').forEach(input => {
+      input.addEventListener('focus', function () {
+        this.style.transform = 'translateY(-2px)';
+      });
+
+      input.addEventListener('blur', function () {
+        this.style.transform = 'translateY(0)';
+      });
+    });
+
+    // Search button enhancement
+    document.querySelector('.btn-orange').addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const btn = this;
+      const originalText = btn.textContent;
+
+      btn.textContent = 'Mencari...';
+      btn.style.transform = 'translateY(-2px)';
+
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.transform = 'translateY(0)';
+      }, 2000);
+    });
+
     let dataUMKM = [];
 
     // Fungsi render kartu UMKM
