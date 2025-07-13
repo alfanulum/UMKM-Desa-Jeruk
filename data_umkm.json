@@ -9,11 +9,11 @@
     "kategori": "Kuliner",
     "harga": "2 Kp - 5 Kp",
     "produk": [
-      {"nama": "Sego Pecel / Nasi Pecel", "harga": "4 Kp"},
-      {"nama": "Urap", "harga": "2 Kp"},
-      {"nama": "Lontong Mie", "harga": "4 Kp"},
-      {"nama": "Jangan Lumut (Sayur Lumut)", "harga": "2 Kp"},
-      {"nama": "Aneka Penyetan", "harga": "5 Kp"}
+      { "nama": "Sego Pecel / Nasi Pecel", "harga": "4 Kp" },
+      { "nama": "Urap", "harga": "2 Kp" },
+      { "nama": "Lontong Mie", "harga": "4 Kp" },
+      { "nama": "Jangan Lumut (Sayur Lumut)", "harga": "2 Kp" },
+      { "nama": "Aneka Penyetan", "harga": "5 Kp" }
     ],
     "image": "asset/image/busiti/bu siti.JPG",
     "image_list": [
@@ -34,11 +34,11 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Aneka sosis goreng", "harga": "-"},
-      {"nama": "Es buah", "harga": "-"},
-      {"nama": "Es kuwut", "harga": "-"},
-      {"nama": "Gempo", "harga": "-"},
-      {"nama": "Lento", "harga": "-"}
+      { "nama": "Aneka sosis goreng", "harga": "-" },
+      { "nama": "Es buah", "harga": "-" },
+      { "nama": "Es kuwut", "harga": "-" },
+      { "nama": "Gempo", "harga": "-" },
+      { "nama": "Lento", "harga": "-" }
     ],
     "image": "asset/image/bukusnul/bu kusnul.JPG",
     "image_list": [
@@ -59,10 +59,10 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Es cao", "harga": "-"},
-      {"nama": "Es Dawet Campur", "harga": "-"},
-      {"nama": "Rujak Manis", "harga": "-"},
-      {"nama": "Tahu Gejrot", "harga": "-"}
+      { "nama": "Es cao", "harga": "-" },
+      { "nama": "Es Dawet Campur", "harga": "-" },
+      { "nama": "Rujak Manis", "harga": "-" },
+      { "nama": "Tahu Gejrot", "harga": "-" }
     ],
     "image": "asset/image/buendang/bu endang.JPG",
     "image_list": [
@@ -72,7 +72,7 @@
       "asset/image/buendang/Tahu Gejrot.jpg"
     ]
   },
-{
+  {
     "nama_umkm": "Pawon Mak Ndut",
     "pemilik": "Bu Erin Solvi",
     "no_hp": "-",
@@ -82,12 +82,12 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Bomboloni", "harga": "-"},
-      {"nama": "Kopi Hitam", "harga": "-"},
-      {"nama": "Kopi Susu", "harga": "-"},
-      {"nama": "Sari Kacang hijau", "harga": "-"},
-      {"nama": "Serawut", "harga": "-"},
-      {"nama": "Tempe Mendoan", "harga": "-"}
+      { "nama": "Bomboloni", "harga": "-" },
+      { "nama": "Kopi Hitam", "harga": "-" },
+      { "nama": "Kopi Susu", "harga": "-" },
+      { "nama": "Sari Kacang hijau", "harga": "-" },
+      { "nama": "Serawut", "harga": "-" },
+      { "nama": "Tempe Mendoan", "harga": "-" }
     ],
     "image": "asset/image/buerin/bu erin.JPG",
     "image_list": [
@@ -109,14 +109,14 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Aneka Sosis", "harga": "-"},
-      {"nama": "Bakso Bakar", "harga": "-"},
-      {"nama": "Chicken Nugget", "harga": "-"},
-      {"nama": "Donat kampung", "harga": "-"},
-      {"nama": "Pangsit", "harga": "-"},
-      {"nama": "Roti Bakar", "harga": "-"},
-      {"nama": "Sari Kacang hijau", "harga": "-"},
-      {"nama": "Udang Rambutan", "harga": "-"}
+      { "nama": "Aneka Sosis", "harga": "-" },
+      { "nama": "Bakso Bakar", "harga": "-" },
+      { "nama": "Chicken Nugget", "harga": "-" },
+      { "nama": "Donat kampung", "harga": "-" },
+      { "nama": "Pangsit", "harga": "-" },
+      { "nama": "Roti Bakar", "harga": "-" },
+      { "nama": "Sari Kacang hijau", "harga": "-" },
+      { "nama": "Udang Rambutan", "harga": "-" }
     ],
     "image": "asset/image/burita/bu rita.JPG",
     "image_list": [
@@ -141,11 +141,11 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Blendung", "harga": "-"},
-      {"nama": "Gatot", "harga": "-"},
-      {"nama": "Klanting", "harga": "-"},
-      {"nama": "Lupis", "harga": "-"},
-      {"nama": "Tiwul", "harga": "-"}
+      { "nama": "Blendung", "harga": "-" },
+      { "nama": "Gatot", "harga": "-" },
+      { "nama": "Klanting", "harga": "-" },
+      { "nama": "Lupis", "harga": "-" },
+      { "nama": "Tiwul", "harga": "-" }
     ],
     "image": "asset/image/busulis/bu sulis.JPG",
     "image_list": [
@@ -157,7 +157,7 @@
     ]
   },
 
- {
+  {
     "nama_umkm": "Kedai Cahaya",
     "pemilik": "Bu Nurhayati",
     "no_hp": "-",
@@ -167,14 +167,14 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Batagor", "harga": "-"},
-      {"nama": "Gethuk", "harga": "-"},
-      {"nama": "Lepet", "harga": "-"},
-      {"nama": "Nasi jagung", "harga": "-"},
-      {"nama": "Tahu campur", "harga": "-"},
-      {"nama": "Tahu telor", "harga": "-"}
+      { "nama": "Batagor", "harga": "-" },
+      { "nama": "Gethuk", "harga": "-" },
+      { "nama": "Lepet", "harga": "-" },
+      { "nama": "Nasi jagung", "harga": "-" },
+      { "nama": "Tahu campur", "harga": "-" },
+      { "nama": "Tahu telor", "harga": "-" }
     ],
-    "image": "asset/image/bunurhayati/bu nurhayati.JPG",  
+    "image": "asset/image/bunurhayati/bu nurhayati.JPG",
     "image_list": [
       "asset/image/bunurhayati/Batagor.jpg",
       "asset/image/bunurhayati/Gethuk.jpg",
@@ -194,13 +194,13 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Brownies Mini", "harga": "-"},
-      {"nama": "Kue lumpur", "harga": "-"},
-      {"nama": "Nasi bakar ayam", "harga": "-"},
-      {"nama": "Risol mayo", "harga": "-"},
-      {"nama": "Sosis Solo", "harga": "-"}
+      { "nama": "Brownies Mini", "harga": "-" },
+      { "nama": "Kue lumpur", "harga": "-" },
+      { "nama": "Nasi bakar ayam", "harga": "-" },
+      { "nama": "Risol mayo", "harga": "-" },
+      { "nama": "Sosis Solo", "harga": "-" }
     ],
-    "image": "asset/image/buisti/bu isti.JPG",  
+    "image": "asset/image/buisti/bu isti.JPG",
     "image_list": [
       "asset/image/buisti/Brownies Mini.jpg",
       "asset/image/buisti/Kue lumpur.jpg",
@@ -219,11 +219,11 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Es kopyot", "harga": "-"},
-      {"nama": "Gado gado", "harga": "-"},
-      {"nama": "Lontong kikil", "harga": "-"}
+      { "nama": "Es kopyot", "harga": "-" },
+      { "nama": "Gado gado", "harga": "-" },
+      { "nama": "Lontong kikil", "harga": "-" }
     ],
-    "image": "asset/image/buisrotin/bu isrotin.JPG",  
+    "image": "asset/image/buisrotin/bu isrotin.JPG",
     "image_list": [
       "asset/image/buisrotin/Es kopyot.jpg",
       "asset/image/buisrotin/Gado gado.jpg",
@@ -240,11 +240,11 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Gulali", "harga": "-"},
-      {"nama": "Sego soto", "harga": "-"},
-      {"nama": "Tape ketan", "harga": "-"}
+      { "nama": "Gulali", "harga": "-" },
+      { "nama": "Sego soto", "harga": "-" },
+      { "nama": "Tape ketan", "harga": "-" }
     ],
-    "image": "asset/image/bumuji/bu muji.JPG",  
+    "image": "asset/image/bumuji/bu muji.JPG",
     "image_list": [
       "asset/image/bumuji/Gulali.jpg",
       "asset/image/bumuji/Sego soto.jpg",
@@ -262,14 +262,14 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Bubur madura", "harga": "-"},
-      {"nama": "Jamur crispy", "harga": "-"},
-      {"nama": "Kue gendos", "harga": "-"},
-      {"nama": "Kue Getass", "harga": "-"},
-      {"nama": "Onde onde", "harga": "-"},
-      {"nama": "Tahu crispy", "harga": "-"}
+      { "nama": "Bubur madura", "harga": "-" },
+      { "nama": "Jamur crispy", "harga": "-" },
+      { "nama": "Kue gendos", "harga": "-" },
+      { "nama": "Kue Getass", "harga": "-" },
+      { "nama": "Onde onde", "harga": "-" },
+      { "nama": "Tahu crispy", "harga": "-" }
     ],
-    "image": "asset/image/bundakartiasih/bunda kartiasih.JPG",  
+    "image": "asset/image/bundakartiasih/bunda kartiasih.JPG",
     "image_list": [
       "asset/image/bundakartiasih/Bubur madura.jpeg",
       "asset/image/bundakartiasih/Jamur crispy.jpg",
@@ -289,10 +289,10 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "gado-gado-MAHI", "harga": "-"},
-      {"nama": "mie pithek", "harga": "-"}
+      { "nama": "gado-gado-MAHI", "harga": "-" },
+      { "nama": "mie pithek", "harga": "-" }
     ],
-    "image": "asset/image/pakwinarsoh/bnj.jpeg",  
+    "image": "asset/image/pakwinarsoh/bnj.jpeg",
     "image_list": [
       "asset/image/pakwinarsoh/gado-gado-MAHI.jpg",
       "asset/image/pakwinarsoh/mie pithek.jpg"
@@ -308,15 +308,15 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Dimsum", "harga": "-"},
-      {"nama": "Kue Cucur", "harga": "-"},
-      {"nama": "Ongol Ongol", "harga": "-"},
-      {"nama": "Sate Kol", "harga": "-"},
-      {"nama": "Sate Puyuh", "harga": "-"},
-      {"nama": "Sate Usus", "harga": "-"},
-      {"nama": "Wingko", "harga": "-"}
+      { "nama": "Dimsum", "harga": "-" },
+      { "nama": "Kue Cucur", "harga": "-" },
+      { "nama": "Ongol Ongol", "harga": "-" },
+      { "nama": "Sate Kol", "harga": "-" },
+      { "nama": "Sate Puyuh", "harga": "-" },
+      { "nama": "Sate Usus", "harga": "-" },
+      { "nama": "Wingko", "harga": "-" }
     ],
-    "image": "asset/image/buasih/bu asih.JPG",  
+    "image": "asset/image/buasih/bu asih.JPG",
     "image_list": [
       "asset/image/buasih/Dimsum.jpg",
       "asset/image/buasih/Kue Cucur.jpg",
@@ -337,15 +337,15 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Cireng isi Ayam Suwir", "harga": "-"},
-      {"nama": "Cireng isi bakso", "harga": "-"},
-      {"nama": "Cireng isi keju", "harga": "-"},
-      {"nama": "Cireng isi sosis", "harga": "-"},
-      {"nama": "Cireng isi usus", "harga": "-"},
-      {"nama": "Sempol", "harga": "-"},
-      {"nama": "Tahu Walik", "harga": "-"}
+      { "nama": "Cireng isi Ayam Suwir", "harga": "-" },
+      { "nama": "Cireng isi bakso", "harga": "-" },
+      { "nama": "Cireng isi keju", "harga": "-" },
+      { "nama": "Cireng isi sosis", "harga": "-" },
+      { "nama": "Cireng isi usus", "harga": "-" },
+      { "nama": "Sempol", "harga": "-" },
+      { "nama": "Tahu Walik", "harga": "-" }
     ],
-    "image": "asset/image/bueva/bu eva.JPG",  
+    "image": "asset/image/bueva/bu eva.JPG",
     "image_list": [
       "asset/image/bueva/Cireng Ayam Suwir.jpg",
       "asset/image/bueva/Cireng isi bakso.jpg",
@@ -366,14 +366,14 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Aneka gorengan", "harga": "-"},
-      {"nama": "Dadar jagung", "harga": "-"},
-      {"nama": "Ote ote", "harga": "-"},
-      {"nama": "Pisang goreng", "harga": "-"},
-      {"nama": "Tahu pedas", "harga": "-"},
-      {"nama": "Tempe menje", "harga": "-"}
+      { "nama": "Aneka gorengan", "harga": "-" },
+      { "nama": "Dadar jagung", "harga": "-" },
+      { "nama": "Ote ote", "harga": "-" },
+      { "nama": "Pisang goreng", "harga": "-" },
+      { "nama": "Tahu pedas", "harga": "-" },
+      { "nama": "Tempe menje", "harga": "-" }
     ],
-    "image": "asset/image/bukusumiah/bu kusumiah.JPG",  
+    "image": "asset/image/bukusumiah/bu kusumiah.JPG",
     "image_list": [
       "asset/image/bukusumiah/Aneka gorengan.jpg",
       "asset/image/bukusumiah/Dadar jagung.jpg",
@@ -393,13 +393,13 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Air mineral", "harga": "-"},
-      {"nama": "Bakso Aci", "harga": "-"},
-      {"nama": "Es beras kencur", "harga": "-"},
-      {"nama": "Es sinom", "harga": "-"},
-      {"nama": "Es teh", "harga": "-"}
+      { "nama": "Air mineral", "harga": "-" },
+      { "nama": "Bakso Aci", "harga": "-" },
+      { "nama": "Es beras kencur", "harga": "-" },
+      { "nama": "Es sinom", "harga": "-" },
+      { "nama": "Es teh", "harga": "-" }
     ],
-    "image": "asset/image/buningsih/bu ningsih.JPG",  
+    "image": "asset/image/buningsih/bu ningsih.JPG",
     "image_list": [
       "asset/image/buningsih/Air mineral.jpg",
       "asset/image/buningsih/Bakso Aci.jpg",
@@ -408,7 +408,7 @@
       "asset/image/buningsih/Es teh.jpg"
     ]
   },
-    {
+  {
     "nama_umkm": "Kedai Ziqir",
     "pemilik": "Bu Nurhidayati",
     "no_hp": "-",
@@ -418,15 +418,15 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Ketan bubuk", "harga": "-"},
-      {"nama": "Ketan Jaduls", "harga": "-"},
-      {"nama": "Ketan Klopo", "harga": "-"},
-      {"nama": "Ketan lumer susu coklat crunchy", "harga": "-"},
-      {"nama": "Ketan surendeng", "harga": "-"},
-      {"nama": "Ketan Q", "harga": "-"},
-      {"nama": "Peyek", "harga": "-"}
+      { "nama": "Ketan bubuk", "harga": "-" },
+      { "nama": "Ketan Jaduls", "harga": "-" },
+      { "nama": "Ketan Klopo", "harga": "-" },
+      { "nama": "Ketan lumer susu coklat crunchy", "harga": "-" },
+      { "nama": "Ketan surendeng", "harga": "-" },
+      { "nama": "Ketan Q", "harga": "-" },
+      { "nama": "Peyek", "harga": "-" }
     ],
-    "image": "asset/image/bunnurhidayati/bu nurhidayati.JPG",  
+    "image": "asset/image/bunnurhidayati/bu nurhidayati.JPG",
     "image_list": [
       "asset/image/bunnurhidayati/Ketan bubuk.jpg",
       "asset/image/bunnurhidayati/Ketan Jaduls.jpg",
@@ -437,7 +437,7 @@
       "asset/image/bunnurhidayati/Peyek.jpg"
     ]
   },
-    {
+  {
     "nama_umkm": "Warung Opang",
     "pemilik": "Bu Riris",
     "no_hp": "-",
@@ -447,14 +447,14 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Ayam geprek", "harga": "-"},
-      {"nama": "Ayam panggang", "harga": "-"},
-      {"nama": "Bakso", "harga": "-"},
-      {"nama": "Es sinom", "harga": "-"},
-      {"nama": "Nasi kepal", "harga": "-"},
-      {"nama": "Urap urap", "harga": "-"}
+      { "nama": "Ayam geprek", "harga": "-" },
+      { "nama": "Ayam panggang", "harga": "-" },
+      { "nama": "Bakso", "harga": "-" },
+      { "nama": "Es sinom", "harga": "-" },
+      { "nama": "Nasi kepal", "harga": "-" },
+      { "nama": "Urap urap", "harga": "-" }
     ],
-    "image": "asset/image/buriris/bu riris.JPG",  
+    "image": "asset/image/buriris/bu riris.JPG",
     "image_list": [
       "asset/image/buriris/Ayam geprek.jpg",
       "asset/image/buriris/Ayam panggang.jpg",
@@ -464,8 +464,28 @@
       "asset/image/buriris/Urap urap.jpg"
     ]
   },
-  
-{
+  {
+    "nama_umkm": "Tambal Ban Matsari",
+    "pemilik": "Pak Matsari",
+    "no_hp": "-",
+    "informasi": "-",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Banjar Melati GG. Pinggir No. 223, Surabaya",
+    "kategori": "Jasa",
+    "harga": "-",
+    "produk": [
+      { "nama": "Gulali", "harga": "-" },
+      { "nama": "Sego soto", "harga": "-" },
+      { "nama": "Tape ketan", "harga": "-" }
+    ],
+    "image": "asset/image/tambalban/tambal_ban.webp",
+    "image_list": [
+      "asset/image/bumuji/Gulali.jpg",
+      "asset/image/bumuji/Sego soto.jpg",
+      "asset/image/bumuji/Tape ketan.jpg"
+    ]
+  },
+  {
     "nama_umkm": "Kedai Mba Selfi",
     "pemilik": "Bu Selfi",
     "no_hp": "-",
@@ -475,13 +495,13 @@
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
-      {"nama": "Bakpao mini goreng", "harga": "-"},
-      {"nama": "Kebab", "harga": "-"},
-      {"nama": "Kentang Goreng", "harga": "-"},
-      {"nama": "Roti Maryam", "harga": "-"},
-      {"nama": "Rujak cireng", "harga": "-"}
+      { "nama": "Bakpao mini goreng", "harga": "-" },
+      { "nama": "Kebab", "harga": "-" },
+      { "nama": "Kentang Goreng", "harga": "-" },
+      { "nama": "Roti Maryam", "harga": "-" },
+      { "nama": "Rujak cireng", "harga": "-" }
     ],
-    "image": "asset/image/buselfi/bu selfi.JPG",  
+    "image": "asset/image/buselfi/bu selfi.JPG",
     "image_list": [
       "asset/image/buselfi/Bakpao mini goreng.jpg",
       "asset/image/buselfi/Kebab.jpg",
@@ -489,5 +509,5 @@
       "asset/image/buselfi/Roti Maryam.jpg",
       "asset/image/buselfi/Rujak cireng.jpg"
     ]
-  } 
+  }
 ]
