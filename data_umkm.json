@@ -474,9 +474,9 @@
     "kategori": "Jasa",
     "harga": "-",
     "produk": [
-      { "nama": "Gulali", "harga": "-" },
-      { "nama": "Sego soto", "harga": "-" },
-      { "nama": "Tape ketan", "harga": "-" }
+      { "nama": "Tambal ban motor", "harga": "5.000" },
+      { "nama": "Isi angin nitrogen", "harga": "3.000" },
+      { "nama": "Ganti ban luar motor", "harga": "25.000" }
     ],
     "image": "asset/image/tambalban/tambal_ban.webp",
     "image_list": [
