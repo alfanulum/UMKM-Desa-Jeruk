@@ -7,8 +7,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "2 Kp - 5 Kp",
@@ -36,8 +36,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -65,8 +65,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -92,8 +92,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -123,8 +123,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -159,8 +159,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -189,8 +189,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -220,8 +220,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -249,8 +249,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -274,8 +274,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -300,8 +300,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -331,8 +331,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -354,8 +354,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -387,8 +387,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -420,8 +420,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -451,8 +451,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -480,8 +480,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -513,8 +513,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -544,8 +544,8 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
     "buka": [
-      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
-      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+      { "hari": "Sabtu :", "Jam": "15.00 - Selesai" },
+      { "hari": "Minggu :", "Jam": "06.00 - Selesai" }
     ],
     "kategori": "Kuliner",
     "harga": "-",
@@ -594,11 +594,9 @@
     "no_hp": "085727539771",
     "informasi": "Warung Bu Kadir adalah tempat nongkrong santai yang menyediakan berbagai jajanan, mie instan dengan topping spesial, dan minuman segar yang cocok dinikmati kapan saja. Mulai dari gorengan hangat, mie rebus pedas, hingga es teh manis, semua disiapkan langsung oleh Bu Kadir dengan rasa rumahan yang khas dan harga bersahabat. Cocok buat pelajar, pekerja, maupun warga sekitar yang ingin makan enak tanpa ribet.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.454382028078!2d112.63667947843614!3d-7.302738673895255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdb0c8f045f7%3A0xe70442555c593b49!2sBu%20kadir!5e0!3m2!1sid!2sid!4v1752686274725!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-    "lokasi": "Jl. Banjar Melati GG. Pinggir No. 223",
-    "buka": [
-      {"hari": "Setiap Hari :", "Jam": "06.00 - 11.00"}
-    ],
-    "kategori": "Retail",
+    "lokasi": "Jl. Banjar Melati Jl. Raya Jeruk Gg. Pinggir No.223, Jeruk, Kec. Lakarsantri, Surabaya, Jawa Timur",
+    "buka": [{ "hari": "Setiap Hari :", "Jam": "06.00 - 11.00" }],
+    "kategori": "Toko Sembako",
     "harga": "-",
     "produk": [
       { "nama": "Aneka Jajan", "harga": "-" },
@@ -617,10 +615,8 @@
     "no_hp": "085733039472",
     "informasi": "Warkop Emak adalah tempat nongkrong sederhana tapi penuh rasa, cocok buat santai bareng teman atau ngopi sendiri. Menyediakan berbagai menu andalan seperti indomie rebus/goreng dengan topping, gorengan hangat, dan minuman hangat maupun dingin yang ramah di kantong. Suasana warkop yang akrab dan masakan ala rumahan bikin betah dan pengen balik lagi.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-    "lokasi": "Jl. Banjar Melati Gg. Pinggir RT 06/03 Lakarsantri",
-    "buka": [
-      {"hari": "Setiap Hari :", "Jam": "07.00 - 00.00"}
-    ],
+    "lokasi": "Jl. Banjar Melati Gg. Pinggir RT 06/ RW 03 Lakarsantri",
+    "buka": [{ "hari": "Setiap Hari :", "Jam": "07.00 - 00.00" }],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -641,9 +637,7 @@
     "informasi": "Toko Kharisma menyediakan kebutuhan sehari-hari lengkap dengan harga bersahabat. Mulai dari sembako, kebutuhan dapur, hingga layanan pembayaran PPOB seperti listrik, pulsa, dan lainnya. Cocok jadi andalan warga sekitar untuk belanja cepat, praktis, dan hemat. Pelayanan ramah, stok lengkap, dan transaksi bisa dilakukan langsung atau via online.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1752688799031!6m8!1m7!1sfu63Jq2hD6-6yZGavFnBmg!2m2!1d-7.302602390445549!2d112.640555485911!3f60.00946663451677!4f-32.76649589433546!5f0.7820865974627469\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Jl. Banjar Melati Gg. Pinggir RT 06/03 Lakarsantri",
-    "buka": [
-      {"hari": "Setiap Hari :", "Jam": "07.00 - 09.00"}
-    ],
+    "buka": [{ "hari": "Setiap Hari :", "Jam": "07.00 - 09.00" }],
     "kategori": "Retail",
     "harga": "-",
     "produk": [
@@ -662,7 +656,6 @@
       "asset/image/kharisma/kharisma2.png",
       "asset/image/kharisma/kharisma3.png",
       "asset/image/kharisma/kharisma4.png"
-
     ]
   },
   {
@@ -670,11 +663,9 @@
     "pemilik": "Retina",
     "no_hp": "0895367274358",
     "informasi": "Warung Bu Retina menyajikan kuliner khas Jawa Timur yang kaya rasa dan bikin nagih. Menu andalannya seperti rujak cingur dan gado-gado dibuat dengan bumbu kacang racikan sendiri yang kental dan gurih. Ditambah gorengan hangat sebagai pelengkap, warung ini jadi tempat yang pas untuk menikmati makanan tradisional dengan cita rasa otentik.",
-    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-    "lokasi": "Jl. Jeruk Gang 2 No.77",
-    "buka": [
-      {"hari": "Setiap Hari :", "Jam": "06.00 - 15.00"}
-    ],
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.454372469313!2d112.6366831!3d-7.3027391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdb0c8f045f7%3A0xe70442555c593b49!2sTambal%20Ban%20Matsari!5e0!3m2!1sid!2sid!4v1752687500000!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Raya Jeruk Gg. Pinggir No.77, Jeruk, Kec. Lakarsantri, Surabaya, Jawa Timur",
+    "buka": [{ "hari": "Setiap Hari :", "Jam": "06.00 - 15.00" }],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -694,11 +685,9 @@
     "pemilik": "Parmi",
     "no_hp": "0895367274358",
     "informasi": "Toko Bu Parmi adalah toko kelontong yang menyediakan kebutuhan sehari-hari dengan harga terjangkau dan pelayanan ramah. Dari sembako utama seperti beras dan gula, hingga camilan dan minuman ringan, semuanya tersedia lengkap untuk memenuhi kebutuhan rumah tangga maupun warung kecil. Toko ini jadi pilihan warga sekitar karena stok selalu ada dan belanjanya praktis tanpa ribet.",
-    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-    "lokasi": "Jl. Jeruk Gang 2 No.79",
-    "buka": [
-      {"hari": "Setiap Hari :", "Jam": "08.00 - 19.00"}
-    ],
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4543800000003!2d112.636674!3d-7.302738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdb0cf91eac5%3A0xc42441a3ea7be6e1!2sJajanan%20Bu%20Nur!5e0!3m2!1sid!2sid!4v1752688400000!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Jeruk Gg. II No.79, Jeruk, Kec. Lakarsantri, Surabaya, Jawa Timur",
+    "buka": [{ "hari": "Setiap Hari :", "Jam": "08.00 - 19.00" }],
     "kategori": "Retail",
     "harga": "-",
     "produk": [
@@ -722,11 +711,11 @@
     "pemilik": "Nurhayati",
     "no_hp": "085731024251",
     "informasi": "Toko Abidah adalah toko sembako rumahan yang menyediakan berbagai kebutuhan pokok dengan harga bersahabat. Toko ini dikenal karena pelayanannya yang ramah, stok barang yang lengkap, dan lokasi yang mudah dijangkau warga sekitar. Mulai dari bahan masakan harian hingga kebutuhan usaha kecil seperti karbit, semuanya tersedia di satu tempat.",
-    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-    "lokasi": "Jl. Jeruk Gang 2 No. 78",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4534370114974!2d112.6377009!3d-7.3028234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdba00c94e15%3A0x88f7f9a1b3c4a278!2sSate%20Ayam%20Pak%20Diran!5e0!3m2!1sid!2sid!4v1752689300000!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "JJl. Raya Jeruk Gg. Pinggir No.78, Jeruk, Kec. Lakarsantri, Surabaya, Jawa Timur",
     "buka": [
-      {"hari": "Setiap Hari :", "Jam": "08.00 - 12.00"},
-      {"hari": "Setiap Hari :", "Jam": "16.00 - 20.00"}
+      { "hari": "Setiap Hari :", "Jam": "08.00 - 12.00" },
+      { "hari": "Setiap Hari :", "Jam": "16.00 - 20.00" }
     ],
     "kategori": "Retail",
     "harga": "-",
@@ -751,11 +740,9 @@
     "pemilik": "Karti",
     "no_hp": "081334936295",
     "informasi": "Suka Tea adalah tempat makan sederhana yang menyajikan hidangan khas Jawa Timur dengan cita rasa autentik dan segelas es teh yang menyegarkan. Cocok untuk kamu yang suka makanan tradisional yang kaya rasa, tapi tetap ringan dan cocok disantap kapan saja. Semua menu disajikan fresh setiap hari dengan bahan pilihan dan racikan bumbu rumahan.",
-    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-    "lokasi": "Jl. Jeruk Gang 2 No. 82",
-    "buka": [
-      {"hari": "Setiap Hari :", "Jam": "07.00 - 19.00"}
-    ],
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4536194363975!2d112.6375574!3d-7.3028076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdbb6c038e9d%3A0xd3c35d7a0e30b127!2sWarung%20Bu%20Asih!5e0!3m2!1sid!2sid!4v1752690000000!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Jeruk Gg. II No.82, Jeruk, Kec. Lakarsantri, Surabaya, Jawa Timur",
+    "buka": [{ "hari": "Setiap Hari :", "Jam": "07.00 - 19.00" }],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -779,9 +766,7 @@
     "informasi": "Penyetan Cak Mad adalah tempat makan khas Jawa Timur yang terkenal dengan sambalnya yang pedas nampol dan lauk gorengannya yang gurih. Setiap menu disajikan dengan nasi hangat, sambal ulek khas Cak Mad, serta lalapan segar. Cocok buat kamu pecinta makanan sederhana tapi berasa nendang!",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Jl Jeruk Gang 3, RT 3/RW 2",
-    "buka": [
-      {"hari": "Setiap Hari :", "Jam": "16.00 - 00.00"}
-    ],
+    "buka": [{ "hari": "Setiap Hari :", "Jam": "16.00 - 00.00" }],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -799,4 +784,3 @@
     ]
   }
 ]
-
