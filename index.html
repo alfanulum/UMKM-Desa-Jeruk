@@ -64,9 +64,24 @@
             menjaga budaya dan semangat gotong royong.
           </p>
         </div>
-        <div class="col-lg-6 text-center position-relative ps-lg-5">
-          <div class="hero-image-wrapper">
-            <img src="asset/image/umkm.jpg" class="img-fluid" alt="UMKM Image" />
+        <div class="col-lg-6 text-center position-relative ps-lg-5 ">
+          <div id="carouselExampleIndicators" class="carousel slide shadow-orange rounded-4 overflow-hidden" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="asset/image/umkm.jpg" class="d-block w-100 rounded-4" alt="First slide" style="object-fit: cover; height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="asset/image/umkm1.jpg" class="d-block w-100 rounded-4" alt="Second slide" style="object-fit: cover; height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="asset/image/umkm2.jpg" class="d-block w-100 rounded-4" alt="Third slide" style="object-fit: cover; height: 400px;">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -96,7 +111,7 @@
               <select class="form-select custom-select-arrow" id="kategori">
                 <option value="">Semua Kategori</option>
                 <option value="Kuliner">Kuliner</option>
-                <option value="Toko Sembako">Toko Sembako</option>
+                <option value="Retail">Retail</option>
                 <option value="Jasa">Jasa</option>
               </select>
             </div>
@@ -176,7 +191,8 @@
             <li class="mb-2">
               <i class="fas fa-map-marker-alt me-2"></i>
               <a href="https://www.google.com/maps/place/Kelurahan+Jeruk,+Lakarsantri,+Surabaya" target="_blank"
-                rel="noopener"> class="text-white-50 text-decoration-none">
+                rel="noopener"
+                class="text-white-50 text-decoration-none"> 
                 Kelurahan Jeruk, Lakarsantri
               </a>
             </li>
@@ -329,7 +345,7 @@
           <div class="card h-100 border-0 shadow-sm hover-shadow text-center p-4 rounded-4 bg-white">
             <span class="fw-bolder mb-2">${kategori}</span>
             <div class="mx-auto">
-              <div class="bg-orange text-white rounded-circle d-inline-flex justify-content-center align-items-center"
+              <div class="bg-orange text-white rounded-circle d-inline-flex justify-content-center align-items-center fw-bold"
                   style="width: 60px; height: 60px; font-size: 20px;">
                 ${jumlah}
               </div>

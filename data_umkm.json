@@ -6,6 +6,10 @@
     "informasi": "Kedai Bu Siti menghadirkan cita rasa khas rumahan dengan menu-menu tradisional Jawa Timur yang melegenda. Setiap sajian dibuat dengan bahan segar dan bumbu racikan sendiri, menghasilkan rasa yang kaya, pedas nikmat, dan bikin nagih. Cocok untuk pecinta makanan sederhana namun berkesan, baik untuk sarapan, makan siang, maupun santapan harian.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "2 Kp - 5 Kp",
     "produk": [
@@ -31,6 +35,10 @@
     "informasi": "Kedai Mama Mintul menyajikan aneka minuman segar dan camilan rumahan yang sederhana tapi selalu dirindukan. Mulai dari es buah segar, jajanan pasar tradisional, sampai gorengan kekinian seperti sosis goreng. Semua menu diolah langsung oleh Mama Mintul dengan bahan segar, cita rasa khas, dan harga bersahabat — cocok untuk semua kalangan dan suasana.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -52,10 +60,14 @@
   {
     "nama_umkm": "Kedai Bu Endang",
     "pemilik": "Bu Endang",
-    "no_hp": "-",
+    "no_hp": "085731809480",
     "informasi": "Kedai Bu Endang adalah warung tradisional yang menyajikan aneka minuman segar dan jajanan khas rumahan. Berlokasi di lingkungan yang asri dan nyaman, Kedai Bu Endang menjadi tempat favorit warga sekitar untuk menikmati minuman dingin dan makanan ringan sambil ngobrol santai. Cita rasa yang ditawarkan tidak hanya menggugah selera, tapi juga membangkitkan kenangan akan kuliner khas tempo dulu.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -79,6 +91,10 @@
     "informasi": "Pawon Mak Ndut adalah UMKM kuliner rumahan yang menghadirkan cita rasa tradisional dengan sentuhan kekinian. Berdiri dari dapur sederhana milik Mak Ndut, kami menawarkan sajian khas yang akrab di lidah dan hangat di hati. Dari camilan manis hingga seduhan kopi hangat, semua dibuat dengan bahan pilihan dan resep turun-temurun. Cocok dinikmati saat santai bersama keluarga, teman, atau jadi teman kerja di sore hari.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -102,10 +118,14 @@
   {
     "nama_umkm": "Kedai Grandmy",
     "pemilik": "Bu Rita",
-    "no_hp": "-",
+    "no_hp": "085815251076",
     "informasi": "Kedai Grandmy adalah usaha kuliner kekinian yang menyajikan aneka makanan ringan dan camilan favorit keluarga. Dengan cita rasa unik, olahan homemade, dan harga ramah di kantong, Kedai Grandmy cocok jadi tempat jajan santai untuk semua kalangan. Baik di acara keluarga, nongkrong bareng teman, ataupun sekadar ngisi perut sore hari, menu kami selalu siap jadi teman setia.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -138,6 +158,10 @@
     "informasi": "Dapur Pelagi adalah UMKM yang berfokus pada pelestarian jajanan tradisional khas Jawa. Dari resep nenek moyang, kami hadirkan kembali kudapan tempo dulu dengan cita rasa yang otentik namun tetap menarik untuk generasi masa kini. Semua olahan dibuat secara rumahan dengan bahan-bahan alami tanpa pengawet, cocok dinikmati sebagai teman ngopi, sarapan ringan, atau oleh-oleh khas.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -164,6 +188,10 @@
     "informasi": "Kedai Cahaya merupakan kedai kuliner yang menyajikan berbagai hidangan tradisional khas Jawa yang sarat rasa dan kenangan. Mulai dari makanan utama seperti nasi jagung lengkap dengan lauk pauk, hingga aneka jajanan pasar seperti gethuk dan kleci, semuanya dibuat dengan resep rumahan dan bahan alami pilihan. Cocok untuk semua kalangan yang ingin menikmati sajian sederhana, bergizi, dan penuh nostalgia.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -191,6 +219,10 @@
     "informasi": "Kedai Bu Isti adalah tempat kuliner yang menyajikan berbagai jajanan rumahan dan makanan praktis dengan rasa yang dijamin nagih. Mulai dari kue basah tradisional, camilan kekinian, hingga nasi bakar hangat yang siap mengenyangkan. Semua menu dibuat langsung oleh Bu Isti dengan bahan berkualitas dan rasa khas dapur rumahan yang sulit dilupakan. Cocok untuk sarapan, bekal, atau camilan santai kapan saja.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -216,6 +248,10 @@
     "informasi": "Warung Bu Isrotin menyajikan hidangan khas rumahan dengan rasa tradisional yang autentik, khususnya masakan khas Jawa Timur. Semua menu diolah langsung oleh Bu Isrotin dengan bahan-bahan segar dan bumbu racikan sendiri, menghadirkan cita rasa yang kaya, gurih, dan bikin kangen. Cocok dinikmati kapan saja, baik untuk sarapan, makan siang, maupun camilan segar di siang hari.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -237,6 +273,10 @@
     "informasi": "Kedai Imas menyajikan menu-menu sederhana khas tradisional yang penuh rasa dan nostalgia. Mulai dari soto hangat yang gurih, camilan manis seperti tape ketan, hingga gulali jadul yang mengingatkan masa kecil. Semua disiapkan dengan bahan alami dan racikan khas rumahan, cocok dinikmati di pagi hingga sore hari sebagai pengisi perut atau penghangat suasana.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -259,6 +299,10 @@
     "informasi": "Warung Jeruk Ceria adalah tempat yang pas buat para pecinta jajanan tradisional dan camilan kekinian. Menyediakan berbagai kue pasar legendaris yang manis legit, hingga gorengan crispy yang gurih dan renyah. Semua olahan dibuat secara rumahan dengan bahan segar dan tanpa pengawet, cocok dinikmati kapan saja — untuk sarapan, camilan sore, hingga suguhan tamu.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -286,6 +330,10 @@
     "informasi": "-",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -305,6 +353,10 @@
     "informasi": "Dapoer Mama Asih adalah UMKM kuliner yang mengangkat cita rasa camilan dan makanan ringan tradisional serta kekinian dalam satu tempat. Dengan mengusung konsep “Dari Dapur ke Hati”, semua sajian dibuat secara homemade dengan bahan berkualitas dan rasa yang dijamin bikin balik lagi. Cocok untuk acara keluarga, teman ngopi, ataupun camilan harian di rumah.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -334,6 +386,10 @@
     "informasi": "Kedai Mbak Eva adalah UMKM yang menyajikan berbagai camilan gorengan kekinian yang renyah di luar, lembut di dalam, dan penuh isian yang menggoda. Semua menu diolah dari bahan-bahan segar dan dibuat langsung setiap hari, sehingga selalu hangat saat disajikan. Kedai ini cocok buat penggemar gorengan kreatif, mulai dari anak-anak, remaja, sampai orang tua. Enak dinikmati sambil nongkrong, nugas, atau jadi teman nonton.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -363,6 +419,10 @@
     "informasi": "Kedai Mama Kus adalah tempat terbaik buat kamu pencinta gorengan sejati. Semua gorengan di sini digoreng langsung saat dipesan, jadi selalu hangat, renyah, dan aromanya menggoda. Dibuat dengan bahan-bahan pilihan dan racikan bumbu khas rumahan, Kedai Mama Kus menyajikan cita rasa yang sederhana tapi bikin susah berhenti ngunyah. Cocok untuk camilan sore, teman minum teh, atau suguhan di segala suasana.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -390,6 +450,10 @@
     "informasi": "Kedai Ricetta menawarkan hidangan sederhana namun penuh cita rasa yang cocok dinikmati kapan saja. Perpaduan camilan hangat dan minuman tradisional menyegarkan jadi andalan di sini. Semua menu disiapkan langsung oleh Bu Ningsih dengan bahan segar dan resep khas rumahan yang bikin nagih sejak suapan pertama.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -411,10 +475,14 @@
   {
     "nama_umkm": "Kedai Ziqir",
     "pemilik": "Bu Nurhidayati",
-    "no_hp": "",
+    "no_hp": "-",
     "informasi": "Kedai Ziqir adalah kedai spesialis ketan dengan berbagai varian rasa, dari yang tradisional sampai kekinian. Mengusung konsep jajanan rumahan yang sederhana namun memanjakan lidah, semua sajian diolah dari ketan pilihan yang pulen dan wangi. Mulai dari ketan klopo sampai ketan lumer susu coklat, semuanya dibuat dengan cinta untuk pencinta camilan manis dan gurih. Lengkap juga dengan peyek renyah sebagai teman makan yang pas.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -444,6 +512,10 @@
     "informasi": "Warung Opang menyajikan aneka makanan rumahan yang praktis, lezat, dan terjangkau. Dari lauk khas seperti ayam panggang dan geprek, sampai sajian unik seperti nasi kepal dan es sinom yang menyegarkan. Semua menu dibuat dengan bumbu racikan sendiri yang kaya rasa dan cocok untuk lidah lokal. Cocok dinikmati kapan saja — untuk sarapan, makan siang, atau camilan sore.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -471,6 +543,10 @@
     "informasi": "Kedai Mbak Selfi menghadirkan aneka camilan kekinian dan jajanan khas yang cocok dinikmati kapan saja. Dari roti maryam hangat hingga kebab dan kentang goreng renyah, semua dibuat dengan bahan pilihan dan disajikan fresh setiap hari. Cocok buat kamu yang ingin ngemil santai, cari bekal praktis, atau sekadar pengisi waktu luang bareng teman dan keluarga.",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Pasar Ndeso Nyi Pandan Sari , Surabaya",
+    "buka": [
+      {"hari": "Sabtu :", "Jam": "15.00 - Selesai"},
+      {"hari": "Minggu :", "Jam": "06.00 - Selesai"}
+    ],
     "kategori": "Kuliner",
     "harga": "-",
     "produk": [
@@ -493,7 +569,7 @@
     "nama_umkm": "Tambal Ban Pak Matsari",
     "pemilik": "Pak Matsari",
     "no_hp": "-",
-    "informasi": "Tambal Ban Matsari adalah solusi cepat dan terpercaya untuk urusan ban kendaraan Anda. Melayani jasa tambal ban motor dan sepeda ontel dengan teknik yang rapi dan tahan lama. Selain itu, Matsari juga menyediakan penjualan ban luar dan ban dalam berbagai ukuran untuk motor maupun mobil. Dengan pelayanan yang ramah dan harga bersahabat, kenyamanan dan keamanan berkendara Anda jadi prioritas utama",
+    "informasi": "Tambal Ban Matsari adalah solusi cepat dan terpercaya untuk urusan ban kendaraan Anda. Melayani jasa tambal ban motor dan sepeda ontel dengan teknik yang rapi dan tahan lama. Selain itu, Matsari juga menyediakan penjualan ban luar dan ban dalam berbagai ukuran untuk motor maupun mobil. Dengan pelayanan yang ramah dan harga bersahabat, kenyamanan dan keamanan berkendara Anda jadi prioritas utama",
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15829.86051350902!2d112.6462114!3d-7.2957848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fcdac3edb1c5%3A0xddae19b76e328cf9!2sTambal%20Ban%20Pak%20Matsari!5e0!3m2!1sid!2sid!4v1721111111111!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Jl. Jeruk Desa Banjarmlati No.223, RT.06/RW.03, Jeruk, Kec. Lakarsantri, Surabaya, Jawa Timur",
     "kategori": "Jasa",
@@ -513,146 +589,214 @@
     ]
   },
   {
-    "nama_umkm": "Warkop Emak",
-    "pemilik": "Achmad Syaiful Arif",
-    "no_hp": "085733039472",
-    "informasi": "-",
-    "maps": "-",
-    "lokasi": "Jl. Banjar Melati Gg. Pinggir RT 06/03 Lakarsantri, Surabaya",
-    "kategori": "Kuliner",
-    "harga": "2.000 - 15.000",
-    "produk": [
-      { "nama": "Indomie", "harga": "6.000 - 8.000" },
-      { "nama": "Gorengan", "harga": "1.000 - 2.000" },
-      { "nama": "Minuman", "harga": "3.000 - 5.000" }
+    "nama_umkm": "Bu Kadir",
+    "pemilik": "Bu Kadir",
+    "no_hp": "085727539771",
+    "informasi": "Warung Bu Kadir adalah tempat nongkrong santai yang menyediakan berbagai jajanan, mie instan dengan topping spesial, dan minuman segar yang cocok dinikmati kapan saja. Mulai dari gorengan hangat, mie rebus pedas, hingga es teh manis, semua disiapkan langsung oleh Bu Kadir dengan rasa rumahan yang khas dan harga bersahabat. Cocok buat pelajar, pekerja, maupun warga sekitar yang ingin makan enak tanpa ribet.",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.454382028078!2d112.63667947843614!3d-7.302738673895255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdb0c8f045f7%3A0xe70442555c593b49!2sBu%20kadir!5e0!3m2!1sid!2sid!4v1752686274725!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Banjar Melati GG. Pinggir No. 223",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "06.00 - 11.00"}
     ],
-    "image": "asset/image/warung_mak/warung_mak.jpg",
+    "kategori": "Retail",
+    "harga": "-",
+    "produk": [
+      { "nama": "Aneka Jajan", "harga": "-" },
+      { "nama": "Mie", "harga": "-" },
+      { "nama": "Minuman", "harga": "-" }
+    ],
+    "image": "asset/image/bukadir/bukadir.jpeg",
     "image_list": [
-      "asset/image/warkopemak/menu.jpg",
-      "asset/image/warkopemak/suasana.jpg"
+      "asset/image/bukadir/bukadir1.jpeg",
+      "asset/image/bukadir/bukadir2.jpeg"
     ]
   },
   {
-    "nama_umkm": "Toko Sembako & PPOB Kharisma",
+    "nama_umkm": "Warkop Emak",
+    "pemilik": "Achmad Syaiful Arif",
+    "no_hp": "085733039472",
+    "informasi": "Warkop Emak adalah tempat nongkrong sederhana tapi penuh rasa, cocok buat santai bareng teman atau ngopi sendiri. Menyediakan berbagai menu andalan seperti indomie rebus/goreng dengan topping, gorengan hangat, dan minuman hangat maupun dingin yang ramah di kantong. Suasana warkop yang akrab dan masakan ala rumahan bikin betah dan pengen balik lagi.",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4689832228014!2d112.64014244178864!3d-7.301088916523961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd0008ec57d1%3A0x2d1c5e0846fdb739!2sPasar%20Ndeso%20Nyi%20Pandan%20Sari!5e0!3m2!1sid!2sid!4v1751908035929!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Banjar Melati Gg. Pinggir RT 06/03 Lakarsantri",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "07.00 - 00.00"}
+    ],
+    "kategori": "Kuliner",
+    "harga": "-",
+    "produk": [
+      { "nama": "Indomie", "harga": "-" },
+      { "nama": "Gorengan", "harga": "-" },
+      { "nama": "Minuman", "harga": "-" }
+    ],
+    "image": "asset/image/warkopemak/warkopemak.jpeg",
+    "image_list": [
+      "asset/image/warkopemak/warkopemak1.jpeg",
+      "asset/image/warkopemak/warkopemak2.jpeg"
+    ]
+  },
+  {
+    "nama_umkm": "Toko Sembako dan PPOB Kharisma",
     "pemilik": "Kanti Asih",
     "no_hp": "085853100694",
-    "informasi": "-",
-    "maps": "-",
-    "lokasi": "Jl. Banjar Melati No. 214 RT 6 RW 3 Kel. Jeruk, Surabaya",
-    "kategori": "Toko Sembako",
-    "harga": "2.000 - 30.000",
-    "produk": [
-      { "nama": "Beras", "harga": "12.000 - 15.000/kg" },
-      { "nama": "Telur", "harga": "25.000/kg" },
-      { "nama": "Air mineral", "harga": "3.000 - 5.000" },
-      { "nama": "Sabun & Bumbu", "harga": "2.000 - 10.000" }
+    "informasi": "Toko Kharisma menyediakan kebutuhan sehari-hari lengkap dengan harga bersahabat. Mulai dari sembako, kebutuhan dapur, hingga layanan pembayaran PPOB seperti listrik, pulsa, dan lainnya. Cocok jadi andalan warga sekitar untuk belanja cepat, praktis, dan hemat. Pelayanan ramah, stok lengkap, dan transaksi bisa dilakukan langsung atau via online.",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1752688799031!6m8!1m7!1sfu63Jq2hD6-6yZGavFnBmg!2m2!1d-7.302602390445549!2d112.640555485911!3f60.00946663451677!4f-32.76649589433546!5f0.7820865974627469\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Banjar Melati Gg. Pinggir RT 06/03 Lakarsantri",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "07.00 - 09.00"}
     ],
-    "image": "asset/image/kharisma/toko.jpg",
+    "kategori": "Retail",
+    "harga": "-",
+    "produk": [
+      { "nama": "Beras", "harga": "-" },
+      { "nama": "Telor", "harga": "-" },
+      { "nama": "Air Mineral", "harga": "-" },
+      { "nama": "Sabun", "harga": "-" },
+      { "nama": "Bumbu-Bumbu", "harga": "-" },
+      { "nama": "Mie Instan", "harga": "-" },
+      { "nama": "Minyak", "harga": "-" }
+    ],
+    "image": "asset/image/kharisma/kharisma.png",
     "image_list": [
-      "asset/image/kharisma/rak.jpg",
-      "asset/image/kharisma/produk.jpg"
+      "asset/image/kharisma/kharisma.png",
+      "asset/image/kharisma/kharisma1.png",
+      "asset/image/kharisma/kharisma2.png",
+      "asset/image/kharisma/kharisma3.png",
+      "asset/image/kharisma/kharisma4.png"
+
     ]
   },
   {
     "nama_umkm": "Warung Bu Retina",
     "pemilik": "Retina",
     "no_hp": "0895367274358",
-    "informasi": "-",
-    "maps": "-",
-    "lokasi": "Jl. Jeruk Gang 2 No.77, Surabaya",
-    "kategori": "Kuliner",
-    "harga": "3.000 - 15.000",
-    "produk": [
-      { "nama": "Rujak Cingur", "harga": "12.000 - 15.000" },
-      { "nama": "Gado-Gado", "harga": "10.000" },
-      { "nama": "Gorengan", "harga": "1.000 - 2.000" }
+    "informasi": "Warung Bu Retina menyajikan kuliner khas Jawa Timur yang kaya rasa dan bikin nagih. Menu andalannya seperti rujak cingur dan gado-gado dibuat dengan bumbu kacang racikan sendiri yang kental dan gurih. Ditambah gorengan hangat sebagai pelengkap, warung ini jadi tempat yang pas untuk menikmati makanan tradisional dengan cita rasa otentik.",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Jeruk Gang 2 No.77",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "06.00 - 15.00"}
     ],
-    "image": "asset/image/buretina/warung.jpg",
+    "kategori": "Kuliner",
+    "harga": "-",
+    "produk": [
+      { "nama": "Rujak Cingur", "harga": "-" },
+      { "nama": "Gorengan", "harga": "-" },
+      { "nama": "Gado-Gado", "harga": "-" }
+    ],
+    "image": "asset/image/buretina/retina.jpeg",
     "image_list": [
-      "asset/image/buretina/menu.jpg",
-      "asset/image/buretina/rujak.jpg"
+      "asset/image/buretina/retina3.jpeg",
+      "asset/image/buretina/retina2.jpeg",
+      "asset/image/buretina/retina1.jpeg"
     ]
   },
   {
     "nama_umkm": "Toko Bu Parmi",
     "pemilik": "Parmi",
-    "no_hp": "-",
-    "informasi": "-",
-    "maps": "-",
-    "lokasi": "Jl. Jeruk Gang 2 No.79, Surabaya",
-    "kategori": "Toko Sembako",
-    "harga": "3.000 - 20.000",
-    "produk": [
-      { "nama": "Beras", "harga": "12.000 - 15.000/kg" },
-      { "nama": "Gula", "harga": "14.000/kg" },
-      { "nama": "Makanan ringan", "harga": "2.000 - 5.000" },
-      { "nama": "Minuman", "harga": "3.000 - 5.000" }
+    "no_hp": "0895367274358",
+    "informasi": "Toko Bu Parmi adalah toko kelontong yang menyediakan kebutuhan sehari-hari dengan harga terjangkau dan pelayanan ramah. Dari sembako utama seperti beras dan gula, hingga camilan dan minuman ringan, semuanya tersedia lengkap untuk memenuhi kebutuhan rumah tangga maupun warung kecil. Toko ini jadi pilihan warga sekitar karena stok selalu ada dan belanjanya praktis tanpa ribet.",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Jeruk Gang 2 No.79",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "08.00 - 19.00"}
     ],
-    "image": "asset/image/buparmi/toko.jpg",
+    "kategori": "Retail",
+    "harga": "-",
+    "produk": [
+      { "nama": "Beras", "harga": "-" },
+      { "nama": "Minyak", "harga": "-" },
+      { "nama": "Gula", "harga": "-" },
+      { "nama": "Makanan Ringan", "harga": "-" },
+      { "nama": "Minuman", "harga": "-" }
+    ],
+    "image": "asset/image/buparmi/buparmi.jpeg",
     "image_list": [
-      "asset/image/buparmi/produk1.jpg",
-      "asset/image/buparmi/produk2.jpg"
+      "asset/image/buparmi/parmi3.jpeg",
+      "asset/image/buparmi/parmi4.jpeg",
+      "asset/image/buparmi/parmi2.jpeg",
+      "asset/image/buparmi/parmi1.jpeg",
+      "asset/image/buparmi/parmi5.jpeg"
     ]
   },
   {
-    "nama_umkm": "Toko Bu Nur",
+    "nama_umkm": "Toko Bu Abidah",
     "pemilik": "Nurhayati",
     "no_hp": "085731024251",
-    "informasi": "-",
-    "maps": "-",
-    "lokasi": "Jl. Jeruk Gang 2 No.78, Surabaya",
-    "kategori": "Toko Sembako",
-    "harga": "5.000 - 25.000",
-    "produk": [
-      { "nama": "Beras", "harga": "13.000/kg" },
-      { "nama": "Minyak", "harga": "16.000/L" },
-      { "nama": "Karbit", "harga": "10.000" }
+    "informasi": "Toko Abidah adalah toko sembako rumahan yang menyediakan berbagai kebutuhan pokok dengan harga bersahabat. Toko ini dikenal karena pelayanannya yang ramah, stok barang yang lengkap, dan lokasi yang mudah dijangkau warga sekitar. Mulai dari bahan masakan harian hingga kebutuhan usaha kecil seperti karbit, semuanya tersedia di satu tempat.",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Jeruk Gang 2 No. 78",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "08.00 - 12.00"},
+      {"hari": "Setiap Hari :", "Jam": "16.00 - 20.00"}
     ],
-    "image": "asset/image/bunur/toko.jpg",
+    "kategori": "Retail",
+    "harga": "-",
+    "produk": [
+      { "nama": "Beras", "harga": "-" },
+      { "nama": "Minyak", "harga": "-" },
+      { "nama": "Gula", "harga": "-" },
+      { "nama": "Karbit", "harga": "-" },
+      { "nama": "Telur", "harga": "-" }
+    ],
+    "image": "asset/image/buabidah/buabidah.jpeg",
     "image_list": [
-      "asset/image/bunur/produk.jpg",
-      "asset/image/bunur/etalase.jpg"
+      "asset/image/buabidah/abidah2.jpeg",
+      "asset/image/buabidah/abidah3.jpeg",
+      "asset/image/buabidah/abidah1.jpeg",
+      "asset/image/buabidah/abidah4.jpeg",
+      "asset/image/buabidah/abidah5.jpeg"
     ]
   },
   {
     "nama_umkm": "Suka Tea",
     "pemilik": "Karti",
-    "no_hp": "081334936295 / 08983125386",
-    "informasi": "-",
-    "maps": "-",
-    "lokasi": "Jl. Jeruk Gang 2 No. 82, Surabaya",
-    "kategori": "Kuliner",
-    "harga": "5.000 - 20.000",
-    "produk": [
-      { "nama": "Tahu Campur", "harga": "12.000" },
-      { "nama": "Gado-Gado", "harga": "10.000" },
-      { "nama": "Lontong Mie", "harga": "12.000" },
-      { "nama": "Es Teh", "harga": "3.000" }
+    "no_hp": "081334936295",
+    "informasi": "Suka Tea adalah tempat makan sederhana yang menyajikan hidangan khas Jawa Timur dengan cita rasa autentik dan segelas es teh yang menyegarkan. Cocok untuk kamu yang suka makanan tradisional yang kaya rasa, tapi tetap ringan dan cocok disantap kapan saja. Semua menu disajikan fresh setiap hari dengan bahan pilihan dan racikan bumbu rumahan.",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl. Jeruk Gang 2 No. 82",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "07.00 - 19.00"}
     ],
-    "image": "asset/image/sukatea/warung.jpg",
+    "kategori": "Kuliner",
+    "harga": "-",
+    "produk": [
+      { "nama": "Tahu Campur", "harga": "-" },
+      { "nama": "Gado-Gado", "harga": "-" },
+      { "nama": "Lontong Mie", "harga": "-" },
+      { "nama": "Es Teh", "harga": "-" }
+    ],
+    "image": "asset/image/sukatea/sukatea.jpeg",
     "image_list": [
-      "asset/image/sukatea/menu.jpg",
-      "asset/image/sukatea/minuman.jpg"
+      "asset/image/sukatea/tahucampur.jpeg",
+      "asset/image/sukatea/gadogado.jpeg",
+      "asset/image/sukatea/lontongmie.jpeg",
+      "asset/image/sukatea/esteh.jpeg"
     ]
   },
   {
     "nama_umkm": "Penyetan Cak Mad",
     "pemilik": "Mad",
     "no_hp": "081343037126",
-    "informasi": "-",
-    "maps": "-",
-    "lokasi": "Jl. Jeruk Gang 3, RT 3/RW 2, Surabaya",
-    "kategori": "Kuliner",
-    "harga": "8.000 - 20.000",
-    "produk": [
-      { "nama": "Ayam penyet", "harga": "15.000" },
-      { "nama": "Tempe penyet", "harga": "10.000" },
-      { "nama": "Nasi + Lalapan", "harga": "5.000" }
+    "informasi": "Penyetan Cak Mad adalah tempat makan khas Jawa Timur yang terkenal dengan sambalnya yang pedas nampol dan lauk gorengannya yang gurih. Setiap menu disajikan dengan nasi hangat, sambal ulek khas Cak Mad, serta lalapan segar. Cocok buat kamu pecinta makanan sederhana tapi berasa nendang!",
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8691512509386!2d112.74792457491559!3d-7.3685601926406825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e5002307d937%3A0xa15cdeae9380e777!2sToko%20sembako%20%26%20PPOB%20%22kharisma%22!5e0!3m2!1sid!2sid!4v1752686671562!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "lokasi": "Jl Jeruk Gang 3, RT 3/RW 2",
+    "buka": [
+      {"hari": "Setiap Hari :", "Jam": "16.00 - 00.00"}
     ],
-    "image": "asset/image/penyetanmad/warung.jpg",
+    "kategori": "Kuliner",
+    "harga": "-",
+    "produk": [
+      { "nama": "Penyetan Lele", "harga": "-" },
+      { "nama": "Penyetan Bebek", "harga": "-" },
+      { "nama": "Penyetan Ayam", "harga": "-" },
+      { "nama": "Penyetan Telur", "harga": "-" }
+    ],
+    "image": "asset/image/cakmad/cakmad.jpeg",
     "image_list": [
-      "asset/image/penyetanmad/menu.jpg",
-      "asset/image/penyetanmad/penyetan.jpg"
+      "asset/image/cakmad/lele.jpeg",
+      "asset/image/cakmad/bebek.jpeg",
+      "asset/image/cakmad/ayam.jpeg",
+      "asset/image/cakmad/telur.jpeg"
     ]
   }
 ]
+
