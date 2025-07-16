@@ -37,34 +37,39 @@
           <button class="carousel-arrow right" onclick="scrollCarousel(1)">❯</button>
         </div>
         <div class="info-card" data-aos="fade-up">
-          <h5>✨ Tentang UMKM</h5>
+          <h5>ℹ️ Tentang UMKM</h5>
           <hr>
-          <ul id="informasi" class="product-list list-unstyled"></ul>
+          <ul id="informasi" class="product-list list-unstyled text-justify"></ul>
         </div>
         <div class="info-card" data-aos="fade-up">
-          <h5>🍽️ Menu Andalan</h5>
+          <h5>📌 Produk Andalan</h5>
           <hr>
           <ul id="produk_list" class="product-list list-unstyled"></ul>
         </div>
       </div>
-      <div class="col-lg-4 py-5 mt-5" data-aos="fade-left">
+      <div class="col-lg-4 custom-margin" data-aos="fade-left">
+        <div class="info-card">
+          <h6 class="text-center">🕐 Buka</h6>
+          <hr>
+          <ul id="buka" class="buka-list list-unstyled"></ul>
+        </div>
         <div class="info-card text-center">
           <h6 class="text-center">💰 Kisaran Harga</h6>
           <hr>
-          <h3 id="kisaran_harga" style="color: #f97316;">-</h3>
+          <h3 id="kisaran_harga" class="mobile-price"><em>-</em></h3>
         </div>
         <div class="info-card mt-3" id="produk_aktif" style="display: none;">
           <p id="nama_produk_aktif" class="mb-0 fw-semibold text-center"></p>
           <p id="harga_produk_aktif" class="text-center price-box mt-3 fw-bold fs-4"></p>
         </div>
         <div class="info-card">
-          <h6>👤 Pemilik Usaha</h6>
+          <h6 class="text-center">👤 Pemilik Usaha</h6>
           <hr>
           <p id="info_pemilik">Memuat...</p>
           <p id="no_hp">Memuat...</p>
         </div>
         <div class="info-card">
-          <h6>📍 Lokasi Lengkap</h6>
+          <h6 class="text-center">📍 Lokasi Lengkap</h6>
           <hr>
           <div id="maps">Memuat...</div>
         </div>

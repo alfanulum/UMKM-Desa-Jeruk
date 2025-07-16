@@ -1,4 +1,3 @@
-
 let images = [];
 let imagesProduk = [];
 let currentIndex = 0;
@@ -21,31 +20,41 @@ async function loadUMKM() {
       return;
     }
 
-    // Isi konten
+    // Isi konten utama
     document.getElementById('nama_umkm').textContent = selected.nama_umkm;
     document.getElementById('informasi').textContent = selected.informasi;
     document.getElementById('maps').innerHTML = selected.maps;
     document.getElementById('info_umkm').textContent = `📍 ${selected.lokasi} | 🏷️ ${selected.kategori}`;
     document.getElementById('kisaran_harga').textContent = selected.harga;
     document.getElementById('info_pemilik').textContent = `Nama Pemilik: ${selected.pemilik}`;
-    document.getElementById('no_hp').textContent = selected.no_hp;
+    document.getElementById('no_hp').textContent =  `Nomer Handphone: ${selected.no_hp}`;
     document.getElementById('preview').src = selected.image;
 
-    // Produk
-    const list = document.getElementById('produk_list');
-    list.innerHTML = '';
-    selected.produk.forEach(p => {
+    // Produk list
+    const produkList = document.getElementById('produk_list');
+    produkList.innerHTML = '';
+    (selected.produk || []).forEach(p => {
       const li = document.createElement('li');
       li.textContent = `${p.nama}`;
-      list.appendChild(li);
+      produkList.appendChild(li);
     });
 
+    // Jam buka list
+    const bukaList = document.getElementById('buka');
+    bukaList.innerHTML = '';
+    (selected.buka || []).forEach(p => {
+      const li = document.createElement('li');
+      li.textContent = `${p.hari} ${p.Jam}`;
+      bukaList.appendChild(li);
+    });
+
+    // Galeri dan produk
     images = [selected.image, ...(selected.image_list || [])];
     imagesProduk = selected.produk || [];
 
     renderCarousel(images);
 
-    // Atur link WhatsApp secara dinamis
+    // Atur link WhatsApp
     setWhatsAppLink(selected.no_hp);
   } catch (error) {
     console.error("Gagal memuat data UMKM:", error);
@@ -94,12 +103,14 @@ function updatePreviewImage() {
   });
 
   const produkInfo = imageToProductMap[images[currentIndex]];
+  const produkAktif = document.getElementById('produk_aktif');
+
   if (produkInfo) {
-    document.getElementById('produk_aktif').style.display = 'block';
+    produkAktif.style.display = 'block';
     document.getElementById('nama_produk_aktif').textContent = produkInfo.nama;
     document.getElementById('harga_produk_aktif').textContent = produkInfo.harga;
   } else {
-    document.getElementById('produk_aktif').style.display = 'none';
+    produkAktif.style.display = 'none';
   }
 
   const activeImg = thumbnails[currentIndex];
