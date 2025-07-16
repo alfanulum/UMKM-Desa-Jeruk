@@ -19,6 +19,10 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+/* ============================================== */
+/* ========== CSS UNTUK index.html (Beranda) ========== */
+/* ============================================== */
+
 .highlight-orange {
   color: #ff6600;
 }
@@ -1181,6 +1185,11 @@ body {
   border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
+/* ========== AKHIR CSS UNTUK index.html ========== */
+
+/* ============================================== */
+/* ========== CSS UNTUK detail.html (Halaman Detail UMKM) ========== */
+/* ============================================== */
 
 /* Image Preview Gallery */
 .image-preview .main-image img {
