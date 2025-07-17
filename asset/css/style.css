@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap");
 
-body {
-  background: linear-gradient(135deg, #fff7ed, #fff, );
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  transition: background-color 0.3s ease;
-}
-
-/* Modern Variables */
+/* ==================== GLOBAL STYLES ==================== */
 :root {
   --orange: #ff6600;
   --orange-light: #fff3e6;
@@ -15,27 +9,36 @@ body {
 }
 
 body {
-  background-color: #fffefc;
+  background: #fffefc;
   font-family: "Plus Jakarta Sans", sans-serif;
+  transition: background-color 0.3s ease;
 }
-
-/* ============================================== */
-/* ========== CSS UNTUK index.html (Beranda) ========== */
-/* ============================================== */
 
 .highlight-orange {
   color: #ff6600;
 }
 
-/* Navbar */
+.text-justify {
+  text-align: justify;
+}
+
+.bg-orange {
+  background-color: #ff6600;
+}
+
+.bg-orange-light {
+  background-color: #ffe5cc;
+}
+
+/* ==================== NAVBAR ==================== */
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1030;
-  -webkit-backdrop-filter: blur(10px); /* Tambahan untuk Safari */
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
   transition: all 0.3s ease;
 }
 
@@ -59,7 +62,7 @@ body {
   color: #d65a00 !important;
 }
 
-/* MODERN HERO SECTION */
+/* ==================== HERO SECTION ==================== */
 .hero-section {
   background: linear-gradient(
     135deg,
@@ -85,16 +88,6 @@ body {
   opacity: 1;
 }
 
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(180deg);
-  }
-}
-
 .hero-section .container {
   position: relative;
   z-index: 2;
@@ -117,15 +110,6 @@ body {
   position: relative;
 }
 
-@keyframes expandWidth {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
 .hero-section .lead {
   font-size: 1.1rem;
   line-height: 1.7;
@@ -134,11 +118,6 @@ body {
   animation: slideInLeft 0.8s ease-out 0.3s both;
 }
 
-.hero-section .text-justify {
-  text-align: justify;
-}
-
-/* Modern Hero Image */
 .hero-image-wrapper {
   position: relative;
   border-radius: 30px;
@@ -164,15 +143,16 @@ body {
   transform: scale(1.05);
 }
 
-/* MODERN SEARCH SECTION */
+/* ==================== SEARCH SECTION ==================== */
 .search-section {
-  -webkit-backdrop-filter: blur(10px); /* Tambahan untuk Safari */
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
   padding: 3rem 0;
   position: relative;
-  margin-top: -40px;
   z-index: 10;
+  border-radius: 30px;
+  margin: 2rem 0;
 }
 
 .search-section::before {
@@ -188,11 +168,7 @@ body {
     rgba(255, 102, 0, 0.02) 100%
   );
   z-index: -1;
-}
-
-.search-section .container {
-  position: relative;
-  z-index: 2;
+  border-radius: 30px;
 }
 
 .search-section form {
@@ -214,22 +190,6 @@ body {
   height: 5px;
   background: var(--orange-gradient);
   z-index: 1;
-}
-
-.search-section form::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 102, 0, 0.01) 100%
-  );
-  pointer-events: none;
-  z-index: 2;
 }
 
 .search-section .form-label {
@@ -287,7 +247,6 @@ body {
   width: 100%;
 }
 
-/* Hide default arrow */
 .custom-select-arrow {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -297,7 +256,6 @@ body {
   padding-right: 50px !important;
 }
 
-/* Custom dropdown arrow */
 .custom-select-wrapper::after {
   content: "";
   position: absolute;
@@ -314,14 +272,12 @@ body {
   z-index: 4;
 }
 
-/* Arrow rotation on focus/active */
 .custom-select-wrapper:focus-within::after,
 .custom-select-wrapper:hover::after {
   border-top-color: var(--orange);
   transform: translateY(-50%) rotate(180deg);
 }
 
-/* Additional visual enhancements */
 .custom-select-wrapper::before {
   content: "";
   position: absolute;
@@ -350,34 +306,10 @@ body {
   transform: translateY(-50%) scale(1.1);
 }
 
-/* Optional: Add a subtle icon beside the label */
 .dropdown-icon {
   font-size: 1.1rem;
   color: var(--orange);
   margin-right: 0.3rem;
-}
-
-/* Enhanced focus state */
-.custom-select-arrow:focus {
-  border-color: var(--orange);
-  box-shadow: 0 0 0 4px rgba(255, 102, 0, 0.1);
-  outline: none;
-  background: white;
-  transform: translateY(-2px);
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .custom-select-wrapper::after {
-    right: 15px;
-    border-width: 6px;
-  }
-
-  .custom-select-wrapper::before {
-    width: 24px;
-    height: 24px;
-    right: 10px;
-  }
 }
 
 .search-section .input-group {
@@ -438,106 +370,159 @@ body {
   box-shadow: 0 8px 25px rgba(255, 102, 0, 0.4);
 }
 
-/* Grid Layout Enhancement */
-.search-section .row.g-2 {
-  gap: 1.5rem;
-}
-
-.search-section .col-md-4 {
+/* ==================== TOTAL UMKM CARD ==================== */
+.total-umkm-card {
+  background: linear-gradient(135deg, #ff6600 0%, #ff8533 100%);
+  border-radius: 25px;
+  padding: 2rem;
+  margin: 2rem 0;
   position: relative;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(255, 102, 0, 0.3);
+  animation: slideInUp 0.8s ease-out;
 }
 
-/* Animations */
-@keyframes slideInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.total-umkm-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
+  animation: rotate 20s linear infinite;
+  z-index: 1;
 }
 
-@keyframes slideInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.total-umkm-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to top, rgba(255, 102, 0, 0.2), transparent);
+  z-index: 1;
 }
 
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.total-umkm-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero-section {
-    padding: 100px 0 60px;
-    border-radius: 0 0 30px 30px;
-  }
-
-  .hero-section .display-5 {
-    font-size: 2.2rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .hero-section .lead {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .search-section {
-    padding: 2rem 0;
-    margin-top: -20px;
-  }
-
-  .search-section form {
-    padding: 2rem 1.5rem;
-    border-radius: 20px;
-  }
-
-  .search-section .form-control,
-  .search-section .form-select {
-    padding: 12px 16px;
-  }
-
-  .search-section .btn-orange {
-    padding: 12px 24px;
-  }
+.total-umkm-icon {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 2rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  animation: pulse 2s infinite;
 }
 
-@media (max-width: 576px) {
-  .hero-section {
-    padding: 90px 0 50px;
-  }
-
-  .hero-section .display-5 {
-    font-size: 1.8rem;
-  }
-
-  .search-section form {
-    padding: 1.5rem 1rem;
-    border-radius: 15px;
-  }
-
-  .search-section .row.g-2 {
-    gap: 1rem;
-  }
+.total-umkm-number {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  animation: countUp 1s ease-out;
 }
 
-/* Enhanced Card Design */
+.total-umkm-label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  opacity: 0.95;
+  letter-spacing: 0.5px;
+}
+
+.total-umkm-description {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==================== CATEGORY CARDS ==================== */
+.category-card {
+  background: white;
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+
+.category-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--orange-gradient);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover::before {
+  transform: scaleX(1);
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(255, 102, 0, 0.2);
+  border-color: var(--orange);
+}
+
+.category-count {
+  background: var(--orange-gradient);
+  color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 1rem;
+  box-shadow: 0 8px 20px rgba(255, 102, 0, 0.4);
+  animation: bounce 2s infinite;
+}
+
+.category-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.category-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  opacity: 0.8;
+}
+
+/* ==================== UMKM CARDS ==================== */
 .card {
   border-radius: 20px;
   overflow: hidden;
@@ -546,8 +531,8 @@ body {
   background: #ffffff;
   border: none;
   position: relative;
-  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .card::before {
@@ -583,12 +568,11 @@ body {
   background: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
 }
 
-/* 🏪 STALL NAME - Bold, prominent with gradient text */
 .card-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 800;
-  color: #000000; /* Warna hitam solid */
+  color: #000000;
   margin-bottom: 1rem;
   line-height: 1.2;
   transition: all 0.3s ease;
@@ -604,7 +588,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Enhanced badge styling */
 .card .badge {
   font-size: 0.75rem;
   padding: 0.5em 1em;
@@ -622,7 +605,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* 👤 OWNER NAME - Elegant with icon and special styling */
 .card .fw-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -679,27 +661,16 @@ body {
   color: #1a1a1a;
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
-
-  /* Posisi tengah */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-
   gap: 0.5rem;
   padding: 0.6rem 1rem;
-
-  /* Gaya background lebih menarik */
   background: linear-gradient(135deg, #fff3e0, #ffe0b2);
   border-radius: 30px;
   border-left: 5px solid var(--orange);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-}
-
-.card .fw-bolder::before {
-  content: "";
-  font-size: 1rem;
-  opacity: 0.8;
 }
 
 .card .fw-bolder::after {
@@ -728,7 +699,6 @@ body {
   left: 100%;
 }
 
-/* 📍 LOCATION - Distinctive with background and icon */
 .card small.text-muted {
   font-family: "Ubuntu", sans-serif;
   font-size: 0.9rem;
@@ -781,17 +751,15 @@ body {
   transform: translateX(100%);
 }
 
-@keyframes pulse {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
+.card-body .d-flex {
+  align-items: flex-start;
+  gap: 1rem;
 }
 
-/* Add glassmorphism effect */
+.card-body .ms-auto {
+  margin-left: auto !important;
+}
+
 .card::after {
   content: "";
   position: absolute;
@@ -808,145 +776,15 @@ body {
   border-radius: 20px;
 }
 
-/* Enhanced card layout */
-.card-body .d-flex {
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.card-body .ms-auto {
-  margin-left: auto !important;
-}
-
-/* Add subtle animation on load */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* Default fade-in animation */
-.fade-in {
-  animation: fadeInUp 0.8s ease-out forwards;
-  opacity: 0;
-}
-
-/* Mobile-specific animations */
-@media (max-width: 768px) {
-  .fade-in {
-    animation: slideInLeft 0.6s ease-out forwards;
-    opacity: 0;
-  }
-
-  /* Alternate slide directions for visual interest */
-  .fade-in:nth-child(even) {
-    animation: slideInRight 0.6s ease-out forwards;
-  }
-
-  .fade-in:nth-child(3n) {
-    animation: scaleIn 0.6s ease-out forwards;
-  }
-}
-
-/* Extra small devices - single column with staggered timing */
-@media (max-width: 576px) {
-  .fade-in {
-    animation: slideInLeft 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    opacity: 0;
-  }
-
-  .fade-in:nth-child(even) {
-    animation: slideInRight 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  }
-
-  .fade-in:nth-child(3n) {
-    animation: fadeInUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  }
-
-  .fade-in:nth-child(4n) {
-    animation: scaleIn 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  }
-}
-
-/* Loading state animation */
-.card-loading {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: none;
-}
-
-/* Reveal animation trigger */
-.card-reveal {
-  animation: fadeInUp 0.6s ease-out forwards;
-}
-
-@media (max-width: 768px) {
-  .card-reveal {
-    animation: slideInLeft 0.6s ease-out forwards;
-  }
-
-  .card-reveal:nth-child(even) {
-    animation: slideInRight 0.6s ease-out forwards;
-  }
-}
-
-/* Enhanced container spacing - 3 cards per row */
 #umkm-container .col-md-4 {
   margin-bottom: 2rem;
 }
 
-/* Override Bootstrap grid for 3 cards per row */
 #umkm-container .col-lg-3 {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
 }
 
-@media (min-width: 992px) {
-  #umkm-container .col-lg-3 {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-}
-
-/* Add hover effect for the entire card content */
 .card-body::before {
   content: "";
   position: absolute;
@@ -968,230 +806,7 @@ body {
   opacity: 1;
 }
 
-.bg-orange {
-  background-color: #ff6600;
-}
-.bg-orange-light {
-  background-color: #ffe5cc;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-/* Responsive enhancements */
-@media (max-width: 768px) {
-  .card {
-    border-radius: 16px;
-    margin-bottom: 1.5rem;
-  }
-
-  .card-body {
-    padding: 1.25rem;
-  }
-
-  /* Mobile stall name */
-  .card-title {
-    font-size: 1.2rem;
-    line-height: 1.3;
-    margin-bottom: 0.8rem;
-  }
-
-  .card-img-top {
-    height: 200px;
-  }
-
-  /* Mobile owner name */
-  .card .fw-semibold {
-    font-size: 0.95rem;
-    padding: 0.5rem 0.8rem;
-    margin-bottom: 0.6rem;
-  }
-
-  /* Mobile location */
-  .card small.text-muted {
-    font-size: 0.85rem;
-    padding: 0.5rem 0.8rem;
-    margin-top: 0.4rem;
-  }
-
-  /* Mobile badge */
-  .card .badge {
-    font-size: 0.7rem;
-    padding: 0.4em 0.8em;
-  }
-}
-
-/* Extra small devices (phones, 576px and down) */
-@media (max-width: 576px) {
-  .card {
-    border-radius: 12px;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
-
-  .card-body {
-    padding: 1rem;
-  }
-
-  /* Mobile stall name - smaller but still prominent */
-  .card-title {
-    font-size: 1.1rem;
-    line-height: 1.2;
-    margin-bottom: 0.7rem;
-    letter-spacing: -0.3px;
-  }
-
-  .card-img-top {
-    height: 180px;
-  }
-
-  /* Mobile owner name - more compact */
-  .card .fw-semibold {
-    font-size: 0.9rem;
-    padding: 0.4rem 0.7rem;
-    margin-bottom: 0.5rem;
-    border-radius: 20px;
-  }
-
-  .card .fw-semibold::before {
-    font-size: 0.9rem;
-  }
-
-  /* Mobile location - compact design */
-  .card small.text-muted {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.7rem;
-    margin-top: 0.3rem;
-    border-radius: 15px;
-  }
-
-  .card small.text-muted::before {
-    font-size: 0.9rem;
-  }
-
-  /* Mobile badge - smaller */
-  .card .badge {
-    font-size: 0.65rem;
-    padding: 0.3em 0.7em;
-  }
-
-  /* Reduce hover effects on mobile for better performance */
-  .card:hover {
-    transform: translateY(-4px) scale(1.01);
-    box-shadow: 0 10px 20px rgba(255, 102, 0, 0.15);
-  }
-
-  .card:hover .card-img-top {
-    transform: scale(1.02);
-  }
-}
-
-/* Touch device optimizations */
-@media (hover: none) and (pointer: coarse) {
-  .card:hover {
-    transform: none;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  }
-
-  .card:hover .card-img-top {
-    transform: none;
-  }
-
-  .card:hover .card-title {
-    background: linear-gradient(135deg, #2c2c2c 0%, #ff6600 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transform: none;
-  }
-
-  .card:hover .fw-semibold {
-    transform: none;
-  }
-
-  .card:hover small.text-muted {
-    transform: none;
-  }
-
-  .card:hover .badge {
-    transform: none;
-  }
-
-  /* Add tap highlight for better touch feedback */
-  .card {
-    -webkit-tap-highlight-color: rgba(255, 102, 0, 0.1);
-  }
-}
-
-/* Container adjustments for mobile */
-@media (max-width: 576px) {
-  #umkm-container {
-    padding: 0 0.5rem;
-  }
-
-  #umkm-container .col-md-4,
-  #umkm-container .col-md-6 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-}
-
-/* Ensure proper spacing on all screen sizes */
-@media (min-width: 577px) and (max-width: 768px) {
-  #umkm-container .col-md-4,
-  #umkm-container .col-md-6 {
-    margin-bottom: 1.5rem;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 991px) {
-  #umkm-container .col-md-4,
-  #umkm-container .col-md-6 {
-    margin-bottom: 2rem;
-  }
-}
-
-.gig-image {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
-.gig-box {
-  background-color: white;
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.price-box {
-  background-color: #f97316;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.btn-orange {
-  background-color: orange;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-.seller-box {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-}
-/* ========== AKHIR CSS UNTUK index.html ========== */
-
-/* ============================================== */
-/* ========== CSS UNTUK detail.html (Halaman Detail UMKM) ========== */
-/* ============================================== */
-
-/* Image Preview Gallery */
+/* ==================== DETAIL PAGE STYLES ==================== */
 .image-preview .main-image img {
   width: 100%;
   max-height: 450px;
@@ -1229,9 +844,11 @@ body {
   border: 1px solid #ddd;
   transition: transform 0.4s ease;
 }
+
 .image-preview img:hover {
   transform: scale(1.01);
 }
+
 .info-card {
   background: #fff;
   padding: 20px;
@@ -1240,24 +857,29 @@ body {
   margin-bottom: 20px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
 .info-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.1);
 }
+
 .price-box h3 {
   color: #f97316;
   font-size: 1.8rem;
   font-weight: bold;
 }
+
 .product-list li {
   padding: 6px 0;
   border-bottom: 1px dashed #ccc;
   transition: padding-left 0.2s ease;
 }
+
 .product-list li:hover {
   padding-left: 8px;
   color: #ea580c;
 }
+
 .btn-order {
   background-color: #f97316;
   border: none;
@@ -1266,10 +888,12 @@ body {
   transition: background 0.3s ease, transform 0.3s ease;
   border-radius: 8px;
 }
+
 .btn-order:hover {
   background-color: #ea580c;
   transform: scale(1.02);
 }
+
 .carousel-track-scroll {
   display: flex;
   gap: 12px;
@@ -1277,6 +901,7 @@ body {
   overflow-x: auto;
   padding-bottom: 10px;
 }
+
 .carousel-track-scroll img {
   width: 200px;
   height: 100px;
@@ -1285,17 +910,19 @@ body {
   cursor: pointer;
   border: 2px solid transparent;
   flex-shrink: 0;
-  -webkit-user-select: none; /* Tambahkan ini untuk dukungan Safari */
   user-select: none;
+  -webkit-user-select: none;
   transition: transform 0.3s ease, border 0.3s ease;
 }
 
 .carousel-track-scroll img:hover {
   transform: scale(1.05);
 }
+
 .carousel-track-scroll img.active {
   border: 2px solid #f97316;
 }
+
 .carousel-arrow {
   position: absolute;
   top: 50%;
@@ -1314,31 +941,38 @@ body {
   justify-content: center;
   transition: all 0.3s ease;
 }
+
 .carousel-arrow:hover {
   background-color: #f97316;
   color: white;
 }
+
 .carousel-arrow.left {
   left: -16px;
 }
+
 .carousel-arrow.right {
   right: -16px;
 }
+
 h2,
 h5,
 h6 {
   transition: color 0.3s ease;
 }
+
 h2:hover,
 h5:hover,
 h6:hover {
   color: #f97316;
 }
+
 #info_umkm {
   font-size: 1rem;
   font-weight: 500;
   color: #555;
 }
+
 #info_umkm::before {
   content: "📌 Info Lokasi & Kategori: ";
   font-weight: 600;
@@ -1390,23 +1024,18 @@ h6:hover {
   margin-top: 7rem;
 }
 
-@media (max-width: 991.98px) {
-  .custom-margin {
-    margin-top: 0 !important;
-  }
-}
-
 .carousel.shadow-orange {
-  box-shadow: 0 0 20px rgba(249, 115, 22, 0.5), 0 8px 30px rgba(249, 115, 22, 0.2);
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.5),
+    0 8px 30px rgba(249, 115, 22, 0.2);
 }
 
 .carousel-indicators button {
-  background-color: #ffffff; /* abu-abu saat tidak aktif */
+  background-color: #ffffff;
   transition: all 0.3s ease;
 }
 
 .carousel-indicators button.active {
-  background-color: #f97316; /* oranye saat aktif */
+  background-color: #f97316;
   opacity: 1;
 }
 
@@ -1424,12 +1053,362 @@ h6:hover {
 }
 
 .buka-list li::before {
-  content: '•';
+  content: "•";
   position: absolute;
   left: 0;
-  color: #f97316; /* oranye */
+  color: #f97316;
   font-size: 18px;
   line-height: 1;
 }
 
+/* ==================== ANIMATIONS ==================== */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(180deg);
+  }
+}
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes countUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.card-loading {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: none;
+}
+
+.card-reveal {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* ==================== MEDIA QUERIES ==================== */
+@media (min-width: 992px) {
+  #umkm-container .col-lg-3 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .custom-margin {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .fade-in {
+    animation: slideInLeft 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .fade-in:nth-child(even) {
+    animation: slideInRight 0.6s ease-out forwards;
+  }
+
+  .fade-in:nth-child(3n) {
+    animation: scaleIn 0.6s ease-out forwards;
+  }
+
+  .card-reveal {
+    animation: slideInLeft 0.6s ease-out forwards;
+  }
+
+  .card-reveal:nth-child(even) {
+    animation: slideInRight 0.6s ease-out forwards;
+  }
+
+  .card {
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-body {
+    padding: 1.25rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card .fw-semibold {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .card small.text-muted {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.4rem;
+  }
+
+  .card .badge {
+    font-size: 0.7rem;
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 90px 0 50px;
+  }
+
+  .hero-section .display-5 {
+    font-size: 1.8rem;
+  }
+
+  .search-section form {
+    padding: 1.5rem 1rem;
+    border-radius: 15px;
+  }
+
+  .search-section .row.g-2 {
+    gap: 1rem;
+  }
+
+  .fade-in {
+    animation: slideInLeft 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    opacity: 0;
+  }
+
+  .fade-in:nth-child(even) {
+    animation: slideInRight 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  .fade-in:nth-child(3n) {
+    animation: fadeInUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  .fade-in:nth-child(4n) {
+    animation: scaleIn 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  .card {
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin-bottom: 0.7rem;
+    letter-spacing: -0.3px;
+  }
+
+  .card-img-top {
+    height: 180px;
+  }
+
+  .card .fw-semibold {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+  }
+
+  .card .fw-semibold::before {
+    font-size: 0.9rem;
+  }
+
+  .card small.text-muted {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.7rem;
+    margin-top: 0.3rem;
+    border-radius: 15px;
+  }
+
+  .card small.text-muted::before {
+    font-size: 0.9rem;
+  }
+
+  .card .badge {
+    font-size: 0.65rem;
+    padding: 0.3em 0.7em;
+  }
+
+  .card:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 10px 20px rgba(255, 102, 0, 0.15);
+  }
+
+  .card:hover .card-img-top {
+    transform: scale(1.02);
+  }
+
+  #umkm-container {
+    padding: 0 0.5rem;
+  }
+
+  #umkm-container .col-md-4,
+  #umkm-container .col-md-6 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .card:hover {
+    transform: none;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .card:hover .card-img-top {
+    transform: none;
+  }
+
+  .card:hover .card-title {
+    background: linear-gradient(135deg, #2c2c2c 0%, #ff6600 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: none;
+  }
+
+  .card:hover .fw-semibold {
+    transform: none;
+  }
+
+  .card:hover small.text-muted {
+    transform: none;
+  }
+
+  .card:hover .badge {
+    transform: none;
+  }
+
+  .card {
+    -webkit-tap-highlight-color: rgba(255, 102, 0, 0.1);
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #umkm-container .col-md-4,
+  #umkm-container .col-md-6 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  #umkm-container .col-md-4,
+  #umkm-container .col-md-6 {
+    margin-bottom: 2rem;
+  }
+}

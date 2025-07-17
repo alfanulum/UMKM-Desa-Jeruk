@@ -638,7 +638,7 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1752688799031!6m8!1m7!1sfu63Jq2hD6-6yZGavFnBmg!2m2!1d-7.302602390445549!2d112.640555485911!3f60.00946663451677!4f-32.76649589433546!5f0.7820865974627469\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Jl. Banjar Melati Gg. Pinggir RT 06/03 Lakarsantri",
     "buka": [{ "hari": "Setiap Hari :", "Jam": "07.00 - 09.00" }],
-    "kategori": "Retail",
+    "kategori": "Toko Sembako",
     "harga": "-",
     "produk": [
       { "nama": "Beras", "harga": "-" },
@@ -688,7 +688,7 @@
     "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4543800000003!2d112.636674!3d-7.302738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fdb0cf91eac5%3A0xc42441a3ea7be6e1!2sJajanan%20Bu%20Nur!5e0!3m2!1sid!2sid!4v1752688400000!5m2!1sid!2sid\" width=\"370\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
     "lokasi": "Jl. Jeruk Gg. II No.79, Jeruk, Kec. Lakarsantri, Surabaya, Jawa Timur",
     "buka": [{ "hari": "Setiap Hari :", "Jam": "08.00 - 19.00" }],
-    "kategori": "Retail",
+    "kategori": "Toko Sembako",
     "harga": "-",
     "produk": [
       { "nama": "Beras", "harga": "-" },
@@ -717,7 +717,7 @@
       { "hari": "Setiap Hari :", "Jam": "08.00 - 12.00" },
       { "hari": "Setiap Hari :", "Jam": "16.00 - 20.00" }
     ],
-    "kategori": "Retail",
+    "kategori": "Toko Sembako",
     "harga": "-",
     "produk": [
       { "nama": "Beras", "harga": "-" },
