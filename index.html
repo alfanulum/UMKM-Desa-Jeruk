@@ -36,6 +36,9 @@
             <a class="nav-link fw-bold " href="#umkm">UMKM</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link fw-bold " href="#pesan">Pesan</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link fw-bold " href="#kontak">Kontak</a>
           </li>
         </ul>
@@ -81,11 +84,11 @@
                   style="object-fit: cover; height: 400px;">
               </div>
               <div class="carousel-item">
-                <img src="asset/image/umkm1.jpg" class="d-block w-100 rounded-4" alt="Second slide"
+                <img src="asset/image/buningsih/bu ningsih.JPG" class="d-block w-100 rounded-4" alt="Second slide"
                   style="object-fit: cover; height: 400px;">
               </div>
               <div class="carousel-item">
-                <img src="asset/image/umkm2.jpg" class="d-block w-100 rounded-4" alt="Third slide"
+                <img src="asset/image/umkm1.jpg" class="d-block w-100 rounded-4" alt="Third slide"
                   style="object-fit: cover; height: 400px;">
               </div>
             </div>
@@ -99,6 +102,30 @@
   <section id="search" class="search-section">
     <div class="container">
       <form class="search-form mx-auto">
+        <!-- TOTAL UMKM CARD -->
+        <div class="total-umkm-card">
+          <div class="total-umkm-content">
+            <div class="total-umkm-icon">🏪</div>
+            <h1 class="total-umkm-number" id="total-umkm-count">0</h1>
+            <div class="total-umkm-label">Total UMKM Terdaftar</div>
+            <div class="total-umkm-description">
+              UMKM yang terdaftar dan aktif di Kelurahan Jeruk
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="text-center py-2">
+            <h2 class="fw-bolder mt-3">Kategori UMKM</h2>
+            <p class="text-muted">Kategori UMKM yang tersedia di Kelurahan Jeruk</p>
+          </div>
+          <div class="row g-3 justify-content-center text-center" id="kategori-populer-container">
+            <!-- Kategori akan ditampilkan oleh JavaScript -->
+          </div>
+        </div>
+
+        <hr>
+
         <div class="mb-4 text-center">
           <label for="keyword" class="form-label">Pencarian</label>
           <div class="input-group">
@@ -128,30 +155,6 @@
             <input type="text" class="form-control" id="lokasi" placeholder="Contoh: RT 03 RW 02">
           </div>
         </div>
-
-        <hr>
-
-        <!-- TOTAL UMKM CARD -->
-        <div class="total-umkm-card">
-          <div class="total-umkm-content">
-            <div class="total-umkm-icon">🏪</div>
-            <h1 class="total-umkm-number" id="total-umkm-count">0</h1>
-            <div class="total-umkm-label">Total UMKM Terdaftar</div>
-            <div class="total-umkm-description">
-              UMKM yang terdaftar dan aktif di Kelurahan Jeruk
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="text-center py-2">
-            <h2 class="fw-bolder mt-3">Kategori UMKM</h2>
-            <p class="text-muted">Kategori UMKM yang tersedia di Kelurahan Jeruk</p>
-          </div>
-          <div class="row g-3 justify-content-center text-center" id="kategori-populer-container">
-            <!-- Kategori akan ditampilkan oleh JavaScript -->
-          </div>
-        </div>
       </form>
     </div>
   </section>
@@ -168,12 +171,55 @@
       <div id="umkm-container" class="row g-4">
         <!-- Kartu UMKM akan dimasukkan di sini oleh JavaScript -->
       </div>
+  </section>
 
+  <section id="pesan" class="hero-section py-5">
+    <div class="d-flex align-items-center justify-content-center mb-1">
+      <img src="asset/image/logokkn.png" alt="Logo UMKM" class="logo-navbar me-3"
+          style="width: 150px; height: 150px;" />
+      <h2 class="fw-bold mb-0">KKN 87 PRABANARANGA</h2>
+    </div>
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <!-- Kolom Carousel -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div id="carouselExampleIndicators" class="carousel slide shadow-orange rounded-4 overflow-hidden"
+            data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="asset/image/bento.jpg" class="d-block w-100 rounded-4" alt="First slide"
+                  style="object-fit: cover; height: 400px;">
+              </div>
+              <div class="carousel-item">
+                <img src="asset/image/pasar.jpeg" class="d-block w-100 rounded-4" alt="Second slide"
+                  style="object-fit: cover; height: 400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Kolom Teks -->
+        <div class="col-lg-6">
+          <span class="display-5 fw-bold highlight-orange">Pesan Kami</span> 
+          <hr>
+          <p class="lead text-muted text-justify">
+            Kami hadir untuk mendukung kemajuan UMKM di Kelurahan Jeruk sebagai wujud nyata dari 
+            semangat dan kemandirian warga. Kami percaya bahwa potensi lokal ini layak mendapatkan 
+            ruang yang lebih luas agar dapat tumbuh, dikenal, dan bersaing di tengah perkembangan zaman.
+          </p>
+        </div>
+      </div>
       <div class="text-end mt-5">
-        <a href="#" class="btn btn-dark rounded-pill px-4 py-2 fw-semibold">^</a>
+        <a href="#" class="btn btn-dark rounded-pill px-4 py-2 fw-semibold back-to-top">^</a>
       </div>
     </div>
   </section>
+
 
   <!-- FOOTER -->
   <footer id="kontak" class="bg-orange text-white pt-5">
