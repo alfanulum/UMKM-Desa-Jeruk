@@ -173,16 +173,18 @@
       </div>
   </section>
 
-  <section id="pesan" class="hero-section py-5">
-    <div class="d-flex align-items-center justify-content-center mb-1">
-      <img src="asset/image/logokkn.png" alt="Logo UMKM" class="logo-navbar me-3"
-          style="width: 150px; height: 150px;" />
-      <h2 class="fw-bold mb-0">KKN 87 PRABANARANGA</h2>
+  <!-- SECTION MESSAGE -->
+  <section id="message" class="message-section">
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
     </div>
-    <div class="container py-5">
+
+    <div class="container content-wrapper">
       <div class="row align-items-center">
-        <!-- Kolom Carousel -->
-        <div class="col-lg-6 mb-4 mb-lg-0">
+        <!-- Image Column diganti dengan Carousel -->
+        <div class="col-lg-6 text-center position-relative ps-lg-5">
           <div id="carouselExampleIndicators" class="carousel slide shadow-orange rounded-4 overflow-hidden"
             data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-indicators">
@@ -203,23 +205,39 @@
             </div>
           </div>
         </div>
-        <!-- Kolom Teks -->
+
+        <!-- Content Column -->
         <div class="col-lg-6">
-          <span class="display-5 fw-bold highlight-orange">Pesan Kami</span> 
-          <hr>
-          <p class="lead text-muted text-justify">
-            Kami hadir untuk mendukung kemajuan UMKM di Kelurahan Jeruk sebagai wujud nyata dari 
-            semangat dan kemandirian warga. Kami percaya bahwa potensi lokal ini layak mendapatkan 
-            ruang yang lebih luas agar dapat tumbuh, dikenal, dan bersaing di tengah perkembangan zaman.
-          </p>
+          <div class="content-area">
+            <div class="section-badge">
+              <i class="fas fa-star"></i>
+              Pesan Kami
+            </div>
+
+            <p class="description">
+              Kami hadir untuk mendukung kemajuan UMKM di Kelurahan Jeruk sebagai wujud nyata dari semangat dan
+              kemandirian warga.
+              Kami percaya bahwa potensi lokal ini layak mendapatkan ruang yang lebih luas agar dapat tumbuh, dikenal,
+              dan bersaing di
+              tengah perkembangan zaman.
+            </p>
+
+            <div class="organization-card">
+              <div class="org-header">
+                <div class="org-logo">
+                  <img src="asset/image/logokkn.jpeg" alt="Logo PRABANARANGA" class="logo-img" />
+                </div>
+                <div class="org-info">
+                  <h3>PRABANARANGA</h3>
+                  <p class="org-subtitle">Supporting PRABANARANGA</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="text-end mt-5">
-        <a href="#" class="btn btn-dark rounded-pill px-4 py-2 fw-semibold back-to-top">^</a>
       </div>
     </div>
   </section>
-
 
   <!-- FOOTER -->
   <footer id="kontak" class="bg-orange text-white pt-5">
@@ -475,6 +493,37 @@
       document.querySelector('.back-to-top')?.addEventListener('click', e => {
         e.preventDefault();
         window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, observerOptions);
+
+    // Observe elements for animation
+    document.querySelectorAll('.image-container, .content-area').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Parallax effect for floating shapes
+    window.addEventListener('scroll', () => {
+      const scrolled = window.pageYOffset;
+      const shapes = document.querySelectorAll('.shape');
+
+      shapes.forEach((shape, index) => {
+        const speed = 0.5 + (index * 0.2);
+        const yPos = -(scrolled * speed);
+        shape.style.transform = `translateY(${yPos}px)`;
       });
     });
   </script>
