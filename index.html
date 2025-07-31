@@ -152,7 +152,8 @@
           </div>
           <div class="col-md-5 col-sm-6 mb-3">
             <label for="lokasi" class="form-label text-center w-100">Lokasi</label>
-            <input type="text" class="form-control" id="lokasi" placeholder="Contoh: RT 03 RW 02">
+            <input type="text" class="form-control" id="lokasi"
+              placeholder="Contoh: RW 02, RT 03, Jl. Banjar, Pasar Ndeso">
           </div>
         </div>
       </form>
@@ -454,12 +455,12 @@
     // Filter UMKM berdasarkan input
     function filterUMKM() {
       const kategori = document.getElementById('kategori')?.value.trim().toLowerCase() || '';
-      const lokasi = document.getElementById('lokasi')?.value.trim().toLowerCase() || '';
+      const lokasi = document.getElementById('lokasi')?.value.trim().toLowerCase().replace(/\s+/g, '') || '';
       const keyword = document.getElementById('keyword')?.value.trim().toLowerCase() || '';
 
       const filtered = dataUMKM.filter(umkm => {
         const umkmKategori = (umkm.kategori || '').toLowerCase();
-        const umkmLokasi = (umkm.lokasi || '').toLowerCase();
+        const umkmLokasi = (umkm.lokasi || '').toLowerCase().replace(/\s+/g, '');
         const umkmNama = (umkm.nama_umkm || '').toLowerCase();
         const umkmPemilik = (umkm.pemilik || '').toLowerCase();
 
